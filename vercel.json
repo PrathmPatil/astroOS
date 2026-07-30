@@ -1,0 +1,17 @@
+{
+  "services": {
+    "astroos-api": {
+      "root": ".",
+      "entrypoint": "main.py"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "astroos-api"
+      }
+    }
+  ]
+}

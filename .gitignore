@@ -54,3 +54,5 @@ redis_data/
 
 # OS
 Desktop.ini
+.vercel
+.env*

@@ -1,0 +1,15 @@
+# Used by Vercel API project (astroos-api). Frontend deploy uses frontend/ only.
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+numpy==2.2.1
+PyYAML==6.0.2
+python-docx==1.1.2
+reportlab==4.2.5
+httpx==0.28.1
+python-dateutil==2.9.0.post0
+pytz==2024.2
+orjson==3.10.12
+email-validator==2.2.0
