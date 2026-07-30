@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ChartStudio } from "@/components/ChartStudio";
 import { ExplainStudio } from "@/components/ExplainStudio";
 import { MarriageStudio } from "@/components/MarriageStudio";
@@ -19,9 +20,9 @@ export default function Home() {
   return (
     <main className="sky-wash min-h-screen">
       <header className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-6">
-        <a href="/" className="font-display text-2xl font-semibold tracking-tight text-ink">
+        <Link href="/" className="font-display text-2xl font-semibold tracking-tight text-ink">
           AstroOS
-        </a>
+        </Link>
         <nav className="flex flex-wrap items-center gap-4 text-sm font-medium text-ink/75">
           <a href="#explain" className="hover:text-ink">
             {t("nav_explain")}
