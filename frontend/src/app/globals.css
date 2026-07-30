@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #1a1510;
+  --paper: #f3ebe0;
+  --sand: #e4d5c1;
+  --clay: #8b4513;
+  --copper: #b5673a;
+  --deep: #243447;
+  --mist: rgba(26, 21, 16, 0.08);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-sand: var(--sand);
+  --color-clay: var(--clay);
+  --color-copper: var(--copper);
+  --color-deep: var(--deep);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.sky-wash {
+  background:
+    radial-gradient(ellipse 80% 50% at 10% 0%, rgba(36, 52, 71, 0.18), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 10%, rgba(181, 103, 58, 0.16), transparent 50%),
+    linear-gradient(180deg, #efe4d4 0%, #f3ebe0 45%, #e8dccb 100%);
+}
+
+.chart-ring {
+  background:
+    conic-gradient(
+      from 0deg,
+      #8b4513 0deg 30deg,
+      #243447 30deg 60deg,
+      #b5673a 60deg 90deg,
+      #4a5d4e 90deg 120deg,
+      #8b4513 120deg 150deg,
+      #243447 150deg 180deg,
+      #b5673a 180deg 210deg,
+      #4a5d4e 210deg 240deg,
+      #8b4513 240deg 270deg,
+      #243447 270deg 300deg,
+      #b5673a 300deg 330deg,
+      #4a5d4e 330deg 360deg
+    );
+}

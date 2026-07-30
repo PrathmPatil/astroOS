@@ -1,0 +1,114 @@
+- rule_id: CAR_004
+  name: Mars Strong — Engineering / Defense / Surgery / Startup Drive
+  category: career
+  priority: 74
+  weight: 0.74
+  confidence_base: 0.71
+  conditions:
+    type: any
+    items:
+      - planet_dignity: { planet: Mars, status: exalted }
+      - planet_dignity: { planet: Mars, status: own_sign }
+      - planet_in_houses: { planet: Mars, houses: [1, 10, 11] }
+  result:
+    themes: [engineering, defense, surgery, startup]
+    conclusion_key: career_mars
+    fields: [engineer, doctor, startup, defense]
+    summary: Mars dignity/placement supports engineering, surgery, defense, startup drive.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Execution-heavy careers; competitive environments.
+  conflicts: []
+  dependencies: []
+
+- rule_id: CAR_005
+  name: Rahu in 9/12 — Foreign / Overseas Career Theme
+  category: career
+  priority: 73
+  weight: 0.73
+  confidence_base: 0.69
+  conditions:
+    type: any
+    items:
+      - planet_in_houses: { planet: Rahu, houses: [9, 12] }
+      - planet_in_houses: { planet: Ketu, houses: [9, 12] }
+  result:
+    themes: [foreign, immigration, overseas]
+    conclusion_key: career_foreign
+    fields: [foreign, immigration, overseas_work]
+    summary: Nodes in 9/12 — classical foreign/settlement career themes.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Cross-border work, remote global roles, settlement themes.
+  conflicts: []
+  dependencies: []
+
+- rule_id: CAR_006
+  name: Mercury-Jupiter — Research / Teaching / Advisory
+  category: career
+  priority: 71
+  weight: 0.7
+  confidence_base: 0.68
+  conditions:
+    type: all
+    items:
+      - planet_in_kendra: Mercury
+      - planet_in_kendra: Jupiter
+  result:
+    themes: [research, teaching, advisory]
+    conclusion_key: career_research
+    fields: [research, teacher, lawyer, advisory]
+    summary: Mercury+Jupiter kendra strength — research/teaching/advisory themes.
+  source:
+    text: Brihat Jataka
+    sloka_id: BJ-KENDRA-01
+  modern_interpretation: Knowledge work, academia, consulting.
+  conflicts: []
+  dependencies: []
+
+- rule_id: CAR_007
+  name: Venus-Mercury — Markets / Design / Media Finance
+  category: career
+  priority: 70
+  weight: 0.7
+  confidence_base: 0.67
+  conditions:
+    type: any
+    items:
+      - same_sign: [Venus, Mercury]
+      - planet_in_houses: { planet: Venus, houses: [2, 10, 11] }
+  result:
+    themes: [finance, stock_market, design, media]
+    conclusion_key: career_markets
+    fields: [finance, stock_market, design, media]
+    summary: Venus-Mercury wealth/skill links — finance, markets, design/media.
+  source:
+    text: Saravali
+    sloka_id: SAR-BUDHADITYA-01
+  modern_interpretation: Trading, branding, creative commerce.
+  conflicts: []
+  dependencies: []
+
+- rule_id: CAR_008
+  name: Saturn in 10 — Corporate / Government Structure
+  category: career
+  priority: 72
+  weight: 0.72
+  confidence_base: 0.7
+  conditions:
+    type: all
+    items:
+      - planet_in_houses: { planet: Saturn, houses: [10] }
+  result:
+    themes: [government, corporate, long_career]
+    conclusion_key: career_saturn_10
+    fields: [government, corporate, administration]
+    summary: Saturn in 10th — durable institutional career theme.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Slow-building authority; process-heavy roles.
+  conflicts: []
+  dependencies: []

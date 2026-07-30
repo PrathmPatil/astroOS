@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Swiss Ephemeris data (download separately)
+backend/ephe/*.se1
+backend/ephe/*.se2
+!backend/ephe/.gitkeep
+
+# Generated
+*.pdf
+backend/storage/reports/*
+!backend/storage/reports/.gitkeep
+backend/storage/logs/*
+!backend/storage/logs/.gitkeep
+
+# Docker / DB
+postgres_data/
+redis_data/
+
+# OS
+Desktop.ini

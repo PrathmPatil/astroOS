@@ -1,0 +1,83 @@
+- rule_id: TR_002
+  name: Saturn Transit on Natal Kendra
+  category: transit
+  priority: 80
+  weight: 0.8
+  confidence_base: 0.74
+  conditions:
+    type: all
+    items:
+      - transit_planet_aspects_natal_house: { planet: Saturn, houses: [1, 4, 7, 10] }
+  result:
+    themes: [discipline, pressure, restructuring]
+    conclusion_key: transit_saturn_kendra
+    summary: Saturn transit on natal kendra — discipline/restructuring theme.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-DASHA-01
+  modern_interpretation: Long-cycle responsibility; patience required.
+  conflicts: []
+  dependencies: []
+
+- rule_id: TR_003
+  name: Rahu Transit on 5/7/9
+  category: transit
+  priority: 75
+  weight: 0.72
+  confidence_base: 0.68
+  conditions:
+    type: all
+    items:
+      - transit_planet_aspects_natal_house: { planet: Rahu, houses: [5, 7, 9] }
+  result:
+    themes: [change, unconventional, foreign]
+    conclusion_key: transit_rahu_focus
+    summary: Rahu transit on 5/7/9 — change/unconventional opportunity themes.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-DASHA-01
+  modern_interpretation: Novelty, foreign links, sudden turns.
+  conflicts: []
+  dependencies: []
+
+- rule_id: TR_004
+  name: Ketu Transit on 1/8/12
+  category: transit
+  priority: 70
+  weight: 0.68
+  confidence_base: 0.64
+  conditions:
+    type: all
+    items:
+      - transit_planet_aspects_natal_house: { planet: Ketu, houses: [1, 8, 12] }
+  result:
+    themes: [detachment, spiritual, release]
+    conclusion_key: transit_ketu_focus
+    summary: Ketu transit on 1/8/12 — detachment/release themes.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-DASHA-01
+  modern_interpretation: Let-go cycles; refine priorities.
+  conflicts: []
+  dependencies: []
+
+- rule_id: TR_005
+  name: Jupiter Transit on 2/5/9/11
+  category: transit
+  priority: 78
+  weight: 0.76
+  confidence_base: 0.72
+  conditions:
+    type: all
+    items:
+      - transit_planet_aspects_natal_house: { planet: Jupiter, houses: [2, 5, 9, 11] }
+  result:
+    themes: [growth, fortune, learning]
+    conclusion_key: transit_jupiter_wealth_dharma
+    summary: Jupiter on wealth/dharma houses — growth themes.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-DASHA-01
+  modern_interpretation: Expansion when natal dasha supports.
+  conflicts: []
+  dependencies: []

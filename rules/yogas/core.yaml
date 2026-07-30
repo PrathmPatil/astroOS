@@ -1,0 +1,60 @@
+- rule_id: YOGA_001
+  name: Gajakesari Yoga
+  category: yoga
+  priority: 80
+  weight: 0.9
+  confidence_base: 0.78
+  conditions:
+    type: all
+    items:
+      - planet_in_kendra: Moon
+      - planet_in_kendra: Jupiter
+  result:
+    themes: [career_growth, respect, knowledge]
+    summary: Moon and Jupiter in kendras — Gajakesari yoga indicated.
+  source:
+    text: BPHS
+    sloka_id: BPHS-YOGA-GK-01
+  modern_interpretation: Reputation, wisdom, and supportive public standing themes.
+  conflicts: []
+  dependencies: []
+
+- rule_id: YOGA_002
+  name: Budha-Aditya Yoga
+  category: yoga
+  priority: 70
+  weight: 0.75
+  confidence_base: 0.72
+  conditions:
+    type: all
+    items:
+      - same_sign: [Sun, Mercury]
+  result:
+    themes: [intelligence, communication, skill]
+    summary: Sun and Mercury in the same sign — Budha-Aditya indicated.
+  source:
+    text: Saravali
+    sloka_id: SAR-BUDHADITYA-01
+  modern_interpretation: Articulation, analysis, and learning aptitude themes.
+  conflicts: []
+  dependencies: []
+
+- rule_id: YOGA_003
+  name: Chandra-Mangal Yoga
+  category: yoga
+  priority: 65
+  weight: 0.7
+  confidence_base: 0.7
+  conditions:
+    type: all
+    items:
+      - same_sign: [Moon, Mars]
+  result:
+    themes: [enterprise, drive, wealth_effort]
+    summary: Moon-Mars conjunction by sign — Chandra-Mangal indicated.
+  source:
+    text: BPHS
+    sloka_id: BPHS-YOGA-GK-01
+  modern_interpretation: Drive and resourceful effort; channel aggression constructively.
+  conflicts: []
+  dependencies: []

@@ -1,0 +1,22 @@
+- rule_id: HLTH_001
+  name: 6th House Occupancy — Health Sensitivity
+  category: health
+  priority: 70
+  weight: 0.65
+  confidence_base: 0.6
+  conditions:
+    type: any
+    items:
+      - planet_in_houses: { planet: Mars, houses: [6] }
+      - planet_in_houses: { planet: Saturn, houses: [6] }
+      - planet_in_houses: { planet: Rahu, houses: [6] }
+  result:
+    themes: [health_sensitivity, lifestyle]
+    conclusion_key: health_watch
+    summary: Malefic influence on 6th — lifestyle/health vigilance theme (not medical advice).
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Discipline in routine; consult medical professionals for health.
+  conflicts: []
+  dependencies: []

@@ -1,0 +1,45 @@
+# AstroSutra AI — Backend
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+
+# Astronomy
+# On Windows without MSVC Build Tools, skip and use approximate_dev.
+# Linux/Docker installs pyswisseph for production accuracy.
+pyswisseph==2.10.3.2; platform_system != "Windows"
+
+# Data
+numpy==2.2.1
+pandas==2.2.3
+PyYAML==6.0.2
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+redis==5.2.1
+
+# Workers
+celery==5.4.0
+
+# Reports
+python-docx==1.1.2
+
+# AI (optional at runtime)
+openai==1.58.1
+langchain==0.3.13
+langchain-openai==0.2.14
+httpx==0.28.1
+
+# Utils
+python-dateutil==2.9.0.post0
+pytz==2024.2
+orjson==3.10.12
+email-validator==2.2.0
+
+# Dev / Test
+pytest==8.3.4
+pytest-asyncio==0.25.0
+ruff==0.8.4

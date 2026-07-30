@@ -1,0 +1,35 @@
+{
+  "id": "brihat_jataka",
+  "title": "Brihat Jataka",
+  "short": "Brihat Jataka",
+  "slokas": [
+    {
+      "id": "BJ-KENDRA-01",
+      "chapter": "Houses",
+      "sloka": "H-01",
+      "sanskrit": "केन्द्रस्थाः ग्रहाः बलवन्तः।",
+      "english": "Planets in kendras are considered strong.",
+      "marathi": "केंद्रातील ग्रह बलवान.",
+      "hindi": "केंद्रस्थ ग्रह बलवान।",
+      "gujarati": "કેન્દ્રસ્થ ગ્રહ બળવાન.",
+      "kannada": "ಕೇಂದ್ರಸ್ಥ ಗ್ರಹ ಬಲವಾನ್.",
+      "tamil": "கேந்திர கிரகங்கள் வலிமை.",
+      "telugu": "కేంద్రస్థ గ్రహాలు బలవంతులు.",
+      "theme": "kendra_strength"
+    },
+    {
+      "id": "BJ-DRISHTI-01",
+      "chapter": "Aspects",
+      "sloka": "A-01",
+      "sanskrit": "सर्वे ग्रहाः सप्तमं पश्यन्ति।",
+      "english": "All planets aspect the 7th from themselves.",
+      "marathi": "सर्व ग्रह सप्तम दृष्टी करतात.",
+      "hindi": "सभी ग्रह सप्तम दृष्टि करते हैं।",
+      "gujarati": "બધા ગ્રહ સપ્તમ દૃષ્ટિ કરે.",
+      "kannada": "ಎಲ್ಲಾ ಗ್ರಹಗಳು ಸಪ್ತಮ ದೃಷ್ಟಿ.",
+      "tamil": "அனைத்து கிரகங்களும் 7ம் பார்வை.",
+      "telugu": "అన్ని గ్రహాలు సప్తమ దృష్టి.",
+      "theme": "aspects"
+    }
+  ]
+}

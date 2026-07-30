@@ -1,0 +1,33 @@
+# Build from repo root:
+#   fly deploy --config fly.api.toml --dockerfile Dockerfile.api
+
+FROM python:3.12-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt \
+    && pip install --no-cache-dir pyswisseph==2.10.3.2
+
+COPY backend/ ./
+COPY knowledge/ /app/knowledge/
+COPY rules/ /app/rules/
+
+RUN python scripts/fetch_ephemeris.py || true
+
+ENV PYTHONPATH=/app
+ENV ASTROOS_ROOT=/app
+ENV SE_EPHE_PATH=/app/ephe
+ENV APP_ENV=production
+ENV DEBUG=false
+ENV AI_PROVIDER=none
+
+EXPOSE 8000
+
+# Fly sets PORT; default 8000 for local docker runs
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

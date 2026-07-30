@@ -1,0 +1,30 @@
+# Render Blueprint — free web service for AstroOS API
+# Dashboard: https://dashboard.render.com → New → Blueprint
+# Docs: docs/DEPLOY-FREE.md
+
+services:
+  - type: web
+    name: astroos-api
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile.api
+    dockerContext: .
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: AI_PROVIDER
+        value: none
+      - key: ASTROOS_ROOT
+        value: /app
+      - key: SE_EPHE_PATH
+        value: /app/ephe
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false
+        # Set after Vercel deploy, e.g. https://astroos.vercel.app
+        value: https://localhost

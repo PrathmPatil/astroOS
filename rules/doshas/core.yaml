@@ -1,0 +1,39 @@
+- rule_id: DOSHA_001
+  name: Manglik Pattern
+  category: dosha
+  priority: 85
+  weight: 0.8
+  confidence_base: 0.74
+  conditions:
+    type: any
+    items:
+      - planet_in_houses: { planet: Mars, houses: [1, 4, 7, 8, 12] }
+  result:
+    themes: [marriage_caution, energy_intensity]
+    summary: Mars in 1/4/7/8/12 — Manglik pattern (common North-Indian school).
+  source:
+    text: BPHS
+    sloka_id: BPHS-MAR-7-01
+  modern_interpretation: Relationship timing/temper themes need careful matching.
+  conflicts: []
+  dependencies: []
+
+- rule_id: DOSHA_002
+  name: Kemdrum Pattern
+  category: dosha
+  priority: 60
+  weight: 0.65
+  confidence_base: 0.62
+  conditions:
+    type: all
+    items:
+      - kemdrum: true
+  result:
+    themes: [emotional_isolation]
+    summary: No planets in 2nd/12th from Moon — Kemdrum pattern (simplified).
+  source:
+    text: Brihat Jataka
+    sloka_id: BJ-KENDRA-01
+  modern_interpretation: Inner resilience work; support systems matter.
+  conflicts: []
+  dependencies: []

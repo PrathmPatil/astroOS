@@ -1,0 +1,49 @@
+{
+  "id": "phaladeepika",
+  "title": "Phaladeepika",
+  "short": "Phaladeepika",
+  "slokas": [
+    {
+      "id": "PD-DASHA-01",
+      "chapter": "Dasa Phala",
+      "sloka": "D-01",
+      "sanskrit": "दशाकाले फलपाकः।",
+      "english": "Results ripen primarily in relevant dashas.",
+      "marathi": "फलपाक संबंधित दशांमध्ये.",
+      "hindi": "फल मुख्यतः दशा में।",
+      "gujarati": "ફળ મુખ્યત્વે દશામાં.",
+      "kannada": "ಫಲ ಮುಖ್ಯವಾಗಿ ದಶೆಯಲ್ಲಿ.",
+      "tamil": "பலன் முக்கியமாக தசையில்.",
+      "telugu": "ఫలం ప్రధానంగా దశలో.",
+      "theme": "dasha_timing"
+    },
+    {
+      "id": "PD-MAR-VEN-01",
+      "chapter": "Kalatra",
+      "sloka": "M-01",
+      "sanskrit": "शुक्रे बले पाणिग्रहणं शुभम्।",
+      "english": "Strong Venus supports marriage/partnership.",
+      "marathi": "बलवान शुक्र: विवाह अनुकूल.",
+      "hindi": "बलवान शुक्र: विवाह अनुकूल।",
+      "gujarati": "બળવાન શુક્ર: વિવાહ અનુકૂળ.",
+      "kannada": "ಬಲವಾದ ಶುಕ್ರ: ವಿವಾಹ ಅನುಕೂಲ.",
+      "tamil": "வலிமையான சுக்கிரன்: திருமணத்துக்கு சாதகம்.",
+      "telugu": "బలమైన శుక్రుడు: వివాహానికి అనుకూలం.",
+      "theme": "venus_marriage"
+    },
+    {
+      "id": "PD-TRANSIT-01",
+      "chapter": "Gochara",
+      "sloka": "G-01",
+      "sanskrit": "गोचरफलं दशानुसारेण द्रष्टव्यम्।",
+      "english": "Transit results should be read together with dasha.",
+      "marathi": "गोचर फल दशेसह पाहावे.",
+      "hindi": "गोचर फल दशा के साथ देखें।",
+      "gujarati": "ગોચર ફળ દશા સાથે જુઓ.",
+      "kannada": "ಗೋಚರ ಫಲ ದಶೆಯೊಂದಿಗೆ ನೋಡಿ.",
+      "tamil": "கோசர பலனை தசையுடன் பார்க்கவும்.",
+      "telugu": "గోచర ఫలాన్ని దశతో చూడండి.",
+      "theme": "transit"
+    }
+  ]
+}

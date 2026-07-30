@@ -1,0 +1,35 @@
+{
+  "id": "jataka_parijata",
+  "title": "Jataka Parijata",
+  "short": "Jataka Parijata",
+  "slokas": [
+    {
+      "id": "JP-NAVAMSA-01",
+      "chapter": "Navamsa",
+      "sloka": "N-01",
+      "sanskrit": "नवमांशे कलत्रभावः विशेषेण द्रष्टव्यः।",
+      "english": "Spouse themes are especially examined in Navamsa.",
+      "marathi": "कलत्र विशेषतः नवांशात पाहावे.",
+      "hindi": "दाम्पत्य विशेषकर नवमांश में।",
+      "gujarati": "દામ્પત્ય ખાસ કરીને નવમાંશમાં.",
+      "kannada": "ದಾಂಪತ್ಯ ವಿಶೇಷವಾಗಿ ನವಾಂಶದಲ್ಲಿ.",
+      "tamil": "தாம்பத்தியம் சிறப்பாக நவாம்சத்தில்.",
+      "telugu": "దాంపత్యం ప్రత్యేకంగా నవాంశంలో.",
+      "theme": "navamsa_spouse"
+    },
+    {
+      "id": "JP-MATCH-01",
+      "chapter": "Matching",
+      "sloka": "MT-01",
+      "sanskrit": "नक्षत्रमैत्री विवाहसौख्यम्।",
+      "english": "Nakshatra harmony supports marital comfort.",
+      "marathi": "नक्षत्र मैत्री: विवाह सौख्य.",
+      "hindi": "नक्षत्र मैत्री: विवाह सुख।",
+      "gujarati": "નક્ષત્ર મૈત્રી: વિવાહ સુખ.",
+      "kannada": "ನಕ್ಷತ್ರ ಮೈತ್ರಿ: ವಿವಾಹ ಸುಖ.",
+      "tamil": "நட்சத்திர நட்பு: திருமண சுகம்.",
+      "telugu": "నక్షత్ర మైత్రి: వివాహ సుఖం.",
+      "theme": "matching"
+    }
+  ]
+}

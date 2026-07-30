@@ -1,0 +1,135 @@
+- rule_id: YOGA_004
+  name: Raja Yoga Hint — Kendra/Trikona Lords Link
+  category: yoga
+  priority: 78
+  weight: 0.8
+  confidence_base: 0.7
+  conditions:
+    type: all
+    items:
+      - house_lord_strong: 9
+      - house_lord_strong: 10
+  result:
+    themes: [status, authority, success]
+    conclusion_key: raja_yoga_hint
+    summary: 9th and 10th lords strong — Raja yoga capability theme.
+  source:
+    text: BPHS
+    sloka_id: BPHS-YOGA-GK-01
+  modern_interpretation: Dharma-karma alignment supporting rise.
+  conflicts: []
+  dependencies: []
+
+- rule_id: YOGA_005
+  name: Dhana Yoga Hint — 2nd/11th Support
+  category: yoga
+  priority: 74
+  weight: 0.75
+  confidence_base: 0.68
+  conditions:
+    type: any
+    items:
+      - house_lord_strong: 2
+      - house_lord_strong: 11
+  result:
+    themes: [wealth, income]
+    conclusion_key: dhana_yoga_hint
+    summary: Wealth house lords strong — Dhana yoga hint.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Income capacity when dashas agree.
+  conflicts: []
+  dependencies: []
+
+- rule_id: WEA_002
+  name: 11th House Occupancy — Gains Theme
+  category: wealth
+  priority: 72
+  weight: 0.7
+  confidence_base: 0.66
+  conditions:
+    type: any
+    items:
+      - planet_in_houses: { planet: Jupiter, houses: [11] }
+      - planet_in_houses: { planet: Venus, houses: [11] }
+      - planet_in_houses: { planet: Mercury, houses: [11] }
+  result:
+    themes: [gains, network_income]
+    conclusion_key: wealth_11th
+    summary: Benefics in 11th — gains/network income themes.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Income via networks, products, royalties.
+  conflicts: []
+  dependencies: []
+
+- rule_id: HLTH_002
+  name: Moon Affliction — Stress Sensitivity
+  category: health
+  priority: 68
+  weight: 0.65
+  confidence_base: 0.6
+  conditions:
+    type: any
+    items:
+      - same_sign: [Moon, Saturn]
+      - same_sign: [Moon, Rahu]
+      - same_sign: [Moon, Mars]
+  result:
+    themes: [stress, mind_care]
+    conclusion_key: health_mind_stress
+    summary: Moon with malefic — stress-care theme (not medical advice).
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Sleep, routine, counseling as lifestyle supports.
+  conflicts: []
+  dependencies: []
+
+- rule_id: REM_003
+  name: Jupiter Wisdom Practice
+  category: remedy
+  priority: 48
+  weight: 0.5
+  confidence_base: 0.48
+  conditions:
+    type: any
+    items:
+      - planet_dignity: { planet: Jupiter, status: debilitated }
+      - planet_in_houses: { planet: Jupiter, houses: [6, 8, 12] }
+  result:
+    themes: [remedy_jupiter]
+    conclusion_key: remedy_jupiter
+    summary: Study/teaching/charity practices classically linked with Jupiter.
+    why: Jupiter dignity/placement stressed.
+    limitations: Cultural practice only; no guaranteed outcomes.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Learning, mentoring, ethical giving.
+  applicable_conditions: [jupiter_stressed]
+  conflicts: []
+  dependencies: []
+
+- rule_id: MAR_006
+  name: Jupiter Aspects 7th Theme
+  category: marriage
+  priority: 76
+  weight: 0.74
+  confidence_base: 0.7
+  conditions:
+    type: any
+    items:
+      - planet_in_houses: { planet: Jupiter, houses: [1, 5, 7, 9] }
+  result:
+    themes: [marriage_support, dharma_partnership]
+    conclusion_key: marriage_jupiter_support
+    summary: Jupiter linked to relationship houses — supportive marriage theme.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-MAR-VEN-01
+  modern_interpretation: Ethical, growth-oriented partnership capacity.
+  conflicts: []
+  dependencies: []

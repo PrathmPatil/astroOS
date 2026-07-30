@@ -1,0 +1,35 @@
+{
+  "id": "saravali",
+  "title": "Saravali",
+  "short": "Saravali",
+  "slokas": [
+    {
+      "id": "SAR-BUDHADITYA-01",
+      "chapter": "Yogas",
+      "sloka": "Y-01",
+      "sanskrit": "रविबुधयुतिः बुद्धियोगः।",
+      "english": "Sun-Mercury association: intelligence/articulation.",
+      "marathi": "सूर्य-बुध: बुद्धी/अभिव्यक्ती.",
+      "hindi": "सूर्य-बुध: बुद्धि/अभिव्यक्ति।",
+      "gujarati": "સૂર્ય-બુધ: બુદ્ધિ/અભિવ્યક્તિ.",
+      "kannada": "ಸೂರ್ಯ-ಬುಧ: ಬುದ್ಧಿ/ಅಭಿವ್ಯಕ್ತಿ.",
+      "tamil": "சூரியன்-புதன்: அறிவு/வெளிப்பாடு.",
+      "telugu": "సూర్యుడు-బుధుడు: బుద్ధి/వ్యక్తీకరణ.",
+      "theme": "budha_aditya"
+    },
+    {
+      "id": "SAR-DHANA-01",
+      "chapter": "Wealth",
+      "sloka": "W-01",
+      "sanskrit": "धनेशे बले धनलाभः।",
+      "english": "Strong 2nd lord supports wealth gain.",
+      "marathi": "बलवान धनेश: धनलाभ.",
+      "hindi": "बलवान धनेश: धनलाभ।",
+      "gujarati": "બળવાન ધનેશ: ધનલાભ.",
+      "kannada": "ಬಲವಾದ ಧನೇಶ: ಧನಲಾಭ.",
+      "tamil": "வலிமையான 2ம் அதிபதி: செல்வ ஆதாயம்.",
+      "telugu": "బలమైన ధనేశ్: ధనలాభం.",
+      "theme": "dhana"
+    }
+  ]
+}

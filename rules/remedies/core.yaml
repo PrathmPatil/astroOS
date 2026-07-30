@@ -1,0 +1,49 @@
+- rule_id: REM_001
+  name: Venus Dignity Support Practice
+  category: remedy
+  priority: 50
+  weight: 0.55
+  confidence_base: 0.5
+  conditions:
+    type: any
+    items:
+      - planet_dignity: { planet: Venus, status: debilitated }
+      - planet_in_houses: { planet: Venus, houses: [6, 8, 12] }
+  result:
+    themes: [remedy_venus]
+    conclusion_key: remedy_venus
+    summary: Classical Venus-support practices may be studied when Venus is stressed.
+    why: Venus dignity/placement strained in chart factors above.
+    limitations: Remedies are cultural/devotional practices, not guaranteed outcomes.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-MAR-VEN-01
+  modern_interpretation: Charity, arts, relationship mindfulness; no medical claims.
+  applicable_conditions: [venus_stressed]
+  conflicts: []
+  dependencies: []
+
+- rule_id: REM_002
+  name: Saturn Discipline Practice
+  category: remedy
+  priority: 50
+  weight: 0.55
+  confidence_base: 0.5
+  conditions:
+    type: any
+    items:
+      - planet_in_houses: { planet: Saturn, houses: [7] }
+      - planet_dignity: { planet: Saturn, status: debilitated }
+  result:
+    themes: [remedy_saturn]
+    conclusion_key: remedy_saturn
+    summary: Discipline, service, and patience practices classically linked with Saturn.
+    why: Saturn factors active in chart evaluation.
+    limitations: Not a substitute for counseling or professional advice.
+  source:
+    text: BPHS
+    sloka_id: BPHS-MAR-7-01
+  modern_interpretation: Consistent routine and ethical work.
+  applicable_conditions: [saturn_stressed]
+  conflicts: []
+  dependencies: []

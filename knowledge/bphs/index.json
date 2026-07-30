@@ -1,0 +1,93 @@
+{
+  "id": "bphs",
+  "title": "Brihat Parashara Hora Shastra",
+  "short": "BPHS",
+  "language": "sanskrit",
+  "note": "Teaching-reference excerpts for AstroOS rule linkage.",
+  "slokas": [
+    {
+      "id": "BPHS-YOGA-GK-01",
+      "chapter": "Yogas",
+      "sloka": "GK-01",
+      "sanskrit": "चन्द्रे केन्द्रे गुरौ केन्द्रे गजकेसरी योगः।",
+      "english": "When Moon and Jupiter are both in kendras, Gajakesari yoga is indicated.",
+      "marathi": "चंद्र व गुरु केंद्रात असतील तर गजकेसरी योगाचे संकेत.",
+      "hindi": "चंद्र और गुरु केंद्र में हों तो गजकेसरी योग।",
+      "gujarati": "ચંદ્ર અને ગુરુ કેન્દ્રમાં હોય તો ગજકેસરી યોગ.",
+      "kannada": "ಚಂದ್ರ ಮತ್ತು ಗುರು ಕೇಂದ್ರದಲ್ಲಿದ್ದರೆ ಗಜಕೇಸರಿ ಯೋಗ.",
+      "tamil": "சந்திரன் குரு மையங்களில் இருந்தால் கஜகேசரி யோகம்.",
+      "telugu": "చంద్రుడు గురువు కేంద్రాల్లో ఉంటే గజకేసరి యోగం.",
+      "theme": "gajakesari"
+    },
+    {
+      "id": "BPHS-MAR-7-01",
+      "chapter": "Kalatra",
+      "sloka": "M-7-01",
+      "sanskrit": "सप्तमेशे शनौ स्थिते विलम्बः सम्भवति।",
+      "english": "Saturn linked to the 7th is classically associated with delay/maturity in marriage.",
+      "marathi": "७व्या भावाशी शनी जोडला गेला तर विवाह विलंब/परिपक्वता.",
+      "hindi": "सप्तम से जुड़े शनि से विवाह विलंब/परिपक्वता।",
+      "gujarati": "સપ્તમ સાથે શનિ — વિવાહ વિલંબ/પરિપક્વતા.",
+      "kannada": "ಸಪ್ತಮಕ್ಕೆ ಶನಿ — ವಿವಾಹ ವಿಳಂಬ/ಪರಿಪಕ್ವತೆ.",
+      "tamil": "ஏழாம் வீட்டுடன் சனி — திருமண தாமதம்/முதிர்ச்சி.",
+      "telugu": "సప్తమంతో శని — వివాహ విలంబం/పరిపక్వత.",
+      "theme": "marriage_delay"
+    },
+    {
+      "id": "BPHS-VEN-DEB-01",
+      "chapter": "Graha Dignity",
+      "sloka": "V-01",
+      "sanskrit": "शुक्रे नीचगे कामादि विषये बाधा।",
+      "english": "Debilitated Venus: strain in affection/comfort themes.",
+      "marathi": "नीचस्थ शुक्र: संबंध/प्रेमसुखात अडथळे.",
+      "hindi": "नीच शुक्र: संबंध/प्रेम सुख में बाधा।",
+      "gujarati": "નીચ શુક્ર: સંબંધ/પ્રેમમાં અડચણ.",
+      "kannada": "ನೀಚ ಶುಕ್ರ: ಸಂಬಂಧ/ಪ್ರೇಮದಲ್ಲಿ ಅಡಚಣೆ.",
+      "tamil": "நீச சுக்கிரன்: உறவு/அன்பில் தடை.",
+      "telugu": "నీచ శుక్రుడు: సంబంధ/ప్రేమలో ఆటంకం.",
+      "theme": "venus_debilitated"
+    },
+    {
+      "id": "BPHS-CAREER-10-01",
+      "chapter": "Karma Bhava",
+      "sloka": "K-10-01",
+      "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+      "english": "Strong 10th lord supports career accomplishment.",
+      "marathi": "बलवान दशमेश: कर्मात सिद्धी.",
+      "hindi": "बलवान दशमेश: करियर सिद्धि।",
+      "gujarati": "બળવાન દશમેશ: કારકિર્દી સિદ્ધિ.",
+      "kannada": "ಬಲವಾದ ದಶಮೇಶ: ವೃತ್ತಿ ಸಿದ್ಧಿ.",
+      "tamil": "வலிமையான 10ம் அதிபதி: தொழில் சித்தி.",
+      "telugu": "బలమైన దశమేశ్: వృత్తి సిద్ధి.",
+      "theme": "career_strength"
+    },
+    {
+      "id": "BPHS-SHAD-01",
+      "chapter": "Shadbala",
+      "sloka": "SB-01",
+      "sanskrit": "षड्बलैः ग्रहस्य सामर्थ्यं ज्ञेयम्।",
+      "english": "A planet's capacity is judged through six-fold strength (Shadbala).",
+      "marathi": "ग्रहाची क्षमता षड्बलांनी जाणावी.",
+      "hindi": "ग्रह सामर्थ्य षड्बल से जाना जाता है।",
+      "gujarati": "ગ્રહ સામર્થ્ય ષડ્બળથી જાણાય.",
+      "kannada": "ಗ್ರಹ ಸಾಮರ್ಥ್ಯ ಷಡ್ಬಲದಿಂದ ತಿಳಿಯುತ್ತದೆ.",
+      "tamil": "கிரக வலிமை ஷட்பலத்தால் அறியப்படும்.",
+      "telugu": "గ్రహ సామర్థ్యం షడ్బలంతో తెలుస్తుంది.",
+      "theme": "shadbala"
+    },
+    {
+      "id": "BPHS-RAJA-01",
+      "chapter": "Raja Yogas",
+      "sloka": "RY-01",
+      "sanskrit": "केन्द्रत्रिकोणेशसंबन्धो राजयोगः।",
+      "english": "Connection of kendra and trikona lords indicates Raja yoga.",
+      "marathi": "केंद्र-त्रिकोणेश संबंध: राजयोग.",
+      "hindi": "केंद्र-त्रिकोणेश संबंध: राजयोग।",
+      "gujarati": "કેન્દ્ર-ત્રિકોણેશ સંબંધ: રાજયોગ.",
+      "kannada": "ಕೇಂದ್ರ-ತ್ರಿಕೋಣೇಶ ಸಂಬಂಧ: ರಾಜಯೋಗ.",
+      "tamil": "கேந்திர-திரிகோண அதிபதி தொடர்பு: ராஜயோகம்.",
+      "telugu": "కేంద్ర-త్రికోణేశ సంబంధం: రాజయోగం.",
+      "theme": "raja_yoga"
+    }
+  ]
+}

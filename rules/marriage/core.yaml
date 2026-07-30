@@ -1,0 +1,105 @@
+- rule_id: MAR_001
+  name: Saturn in 7th — Marriage Delay Theme
+  category: marriage
+  priority: 90
+  weight: 0.85
+  confidence_base: 0.8
+  conditions:
+    type: all
+    items:
+      - planet_in_houses: { planet: Saturn, houses: [7] }
+  result:
+    themes: [marriage_delay, maturity]
+    conclusion_key: marriage_delay
+    summary: Saturn occupies the 7th — classical delay/maturity in partnership themes.
+  source:
+    text: BPHS
+    sloka_id: BPHS-MAR-7-01
+  modern_interpretation: Partnerships may mature later; seriousness over haste.
+  conflicts: []
+  dependencies: []
+
+- rule_id: MAR_002
+  name: Venus Debilitated — Relationship Strain Theme
+  category: marriage
+  priority: 88
+  weight: 0.82
+  confidence_base: 0.77
+  conditions:
+    type: all
+    items:
+      - planet_dignity: { planet: Venus, status: debilitated }
+  result:
+    themes: [relationship_strain]
+    conclusion_key: marriage_delay
+    summary: Debilitated Venus — strain in affection/comfort themes.
+  source:
+    text: BPHS
+    sloka_id: BPHS-VEN-DEB-01
+  modern_interpretation: Conscious relationship skills and Venus remedies (classical) may be studied.
+  conflicts: []
+  dependencies: []
+
+- rule_id: MAR_003
+  name: Strong Venus — Supportive Marriage Theme
+  category: marriage
+  priority: 75
+  weight: 0.78
+  confidence_base: 0.75
+  conditions:
+    type: any
+    items:
+      - planet_dignity: { planet: Venus, status: exalted }
+      - planet_dignity: { planet: Venus, status: own_sign }
+  result:
+    themes: [marriage_support]
+    conclusion_key: marriage_supportive
+    summary: Venus dignified — supportive partnership indication.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-MAR-VEN-01
+  modern_interpretation: Affection and harmony capacity supported.
+  conflicts: [MAR_002]
+  dependencies: []
+
+- rule_id: MAR_004
+  name: Navamsa 7th Focus
+  category: marriage
+  priority: 70
+  weight: 0.7
+  confidence_base: 0.68
+  conditions:
+    type: all
+    items:
+      - navamsa_focus: seventh
+  result:
+    themes: [spouse_navamsa]
+    conclusion_key: spouse_navamsa_active
+    summary: Navamsa examined for spouse themes (Jataka Parijata tradition).
+  source:
+    text: Jataka Parijata
+    sloka_id: JP-NAVAMSA-01
+  modern_interpretation: D9 confirmation layer for relationship conclusions.
+  conflicts: []
+  dependencies: []
+
+- rule_id: MAR_005
+  name: 7th Lord Dasha Window
+  category: marriage
+  priority: 82
+  weight: 0.8
+  confidence_base: 0.73
+  conditions:
+    type: all
+    items:
+      - current_dasha_involves_7th_lord: true
+  result:
+    themes: [marriage_timing]
+    conclusion_key: marriage_window
+    summary: Current dasha involves 7th lord — timing window traditionally watched.
+  source:
+    text: Phaladeepika
+    sloka_id: PD-DASHA-01
+  modern_interpretation: Prefer dasha windows aligned with 7th/Venus/Jupiter.
+  conflicts: []
+  dependencies: []

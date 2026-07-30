@@ -1,0 +1,20 @@
+- rule_id: TR_001
+  name: Jupiter Transit Support Theme
+  category: transit
+  priority: 65
+  weight: 0.6
+  confidence_base: 0.58
+  conditions:
+    type: all
+    items:
+      - transit_planet_aspects_natal_house: { planet: Jupiter, houses: [1, 5, 7, 9, 10] }
+  result:
+    themes: [opportunity, growth]
+    conclusion_key: transit_jupiter_support
+    summary: Jupiter transit linked to supportive houses (simplified sign-based).
+  source:
+    text: Phaladeepika
+    sloka_id: PD-DASHA-01
+  modern_interpretation: Growth windows when natal dasha agrees.
+  conflicts: []
+  dependencies: []

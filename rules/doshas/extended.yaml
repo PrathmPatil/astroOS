@@ -1,0 +1,21 @@
+- rule_id: DOSHA_003
+  name: Guru Chandal Pattern
+  category: dosha
+  priority: 72
+  weight: 0.7
+  confidence_base: 0.68
+  conditions:
+    type: any
+    items:
+      - same_sign: [Jupiter, Rahu]
+      - same_sign: [Jupiter, Ketu]
+  result:
+    themes: [belief_conflict, unconventional_wisdom]
+    conclusion_key: guru_chandal
+    summary: Jupiter with Rahu/Ketu — Guru Chandal pattern (classical caution/unconventional wisdom).
+  source:
+    text: BPHS
+    sloka_id: BPHS-MAR-7-01
+  modern_interpretation: Belief systems may be unconventional; discernment needed.
+  conflicts: []
+  dependencies: []

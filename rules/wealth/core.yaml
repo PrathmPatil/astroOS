@@ -1,0 +1,21 @@
+- rule_id: WEA_001
+  name: Venus/Jupiter Wealth Support
+  category: wealth
+  priority: 75
+  weight: 0.75
+  confidence_base: 0.7
+  conditions:
+    type: any
+    items:
+      - planet_in_houses: { planet: Venus, houses: [2, 11] }
+      - planet_in_houses: { planet: Jupiter, houses: [2, 5, 9, 11] }
+  result:
+    themes: [income, prosperity]
+    conclusion_key: wealth_support
+    summary: Benefics linked to 2nd/11th wealth houses.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Resource flow supported when dashas agree.
+  conflicts: []
+  dependencies: []

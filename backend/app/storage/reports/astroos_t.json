@@ -1,0 +1,3912 @@
+{
+  "title": "AstroOS Report — t",
+  "meta": {
+    "name": "t",
+    "place": null,
+    "jd_ut": 2448118.7083333335,
+    "utc": "1990-08-15T05:00:00+00:00",
+    "timezone": "Asia/Kolkata",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "ayanamsha": "lahiri",
+    "house_system": "W",
+    "ephemeris_engine": "approximate_dev"
+  },
+  "lagna": {
+    "longitude": 176.313859,
+    "sign": "Virgo",
+    "sign_mr": "कन्या",
+    "dms": "26° Virgo 18' 50\"",
+    "lord": "Mercury",
+    "nakshatra": "Chitra",
+    "pada": 1
+  },
+  "moon": {
+    "sign": "Taurus",
+    "sign_mr": "वृषभ",
+    "nakshatra": "Rohini",
+    "pada": 3,
+    "lord": "Moon",
+    "longitude": 48.421255
+  },
+  "vargas_available": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D10",
+    "D11",
+    "D12",
+    "D16",
+    "D20",
+    "D24",
+    "D27",
+    "D30",
+    "D40",
+    "D45",
+    "D60"
+  ],
+  "conclusions": [
+    {
+      "conclusion_key": "raja_yoga_hint",
+      "title": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+      "summary": "9th and 10th lords strong — Raja yoga capability theme.",
+      "themes": [
+        "authority",
+        "status",
+        "success"
+      ],
+      "evidence": [
+        "✓ 9th lord Venus in H10 strong=True",
+        "✓ 10th lord Mercury in H4 strong=True"
+      ],
+      "used_rules": [
+        "YOGA_004"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "YOGA_004",
+          "name": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+          "priority": 78,
+          "modern_interpretation": "Dharma-karma alignment supporting rise.",
+          "evidence_checks": [
+            "✓ 9th lord Venus in H10 strong=True",
+            "✓ 10th lord Mercury in H4 strong=True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "YOGA_004",
+          "text": "BPHS",
+          "sloka_id": "BPHS-YOGA-GK-01",
+          "chapter": "Yogas",
+          "sloka": "GK-01",
+          "sanskrit": "चन्द्रे केन्द्रे गुरौ केन्द्रे गजकेसरी योगः।",
+          "english": "When Moon and Jupiter are both in kendras, Gajakesari yoga is indicated.",
+          "marathi": "चंद्र व गुरु केंद्रात असतील तर गजकेसरी योगाचे संकेत.",
+          "hindi": "चंद्र और गुरु केंद्र में हों तो गजकेसरी योग।"
+        }
+      ],
+      "confidence": 70.0,
+      "category": "yoga",
+      "ai_explanation": "«Raja Yoga Hint — Kendra/Trikona Lords Link» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~70.0%). નિયમ: YOGA_004. પુરાવા: ✓ 9th lord Venus in H10 strong=True; ✓ 10th lord Mercury in H4 strong=True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "ac0be788-b6af-4b8b-9c87-63070497e134",
+        "created_at": "2026-07-30T10:21:28.517232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "raja_yoga_hint",
+          "title": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+          "summary": "9th and 10th lords strong — Raja yoga capability theme.",
+          "confidence": 70.0
+        },
+        "evidence": [
+          "✓ 9th lord Venus in H10 strong=True",
+          "✓ 10th lord Mercury in H4 strong=True"
+        ],
+        "rules": [
+          "YOGA_004"
+        ],
+        "planets": [
+          "Venus",
+          "Mercury"
+        ],
+        "houses": [
+          10,
+          4
+        ],
+        "rule_details": [
+          {
+            "rule_id": "YOGA_004",
+            "name": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+            "priority": 78,
+            "modern_interpretation": "Dharma-karma alignment supporting rise.",
+            "evidence_checks": [
+              "✓ 9th lord Venus in H10 strong=True",
+              "✓ 10th lord Mercury in H4 strong=True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "YOGA_004",
+            "book": "BPHS",
+            "sloka_id": "BPHS-YOGA-GK-01",
+            "chapter": "Yogas",
+            "sloka_ref": "GK-01",
+            "sanskrit": "चन्द्रे केन्द्रे गुरौ केन्द्रे गजकेसरी योगः।",
+            "translations": {
+              "en": "When Moon and Jupiter are both in kendras, Gajakesari yoga is indicated.",
+              "mr": "चंद्र व गुरु केंद्रात असतील तर गजकेसरी योगाचे संकेत.",
+              "hi": "चंद्र और गुरु केंद्र में हों तो गजकेसरी योग।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+            "key": "raja_yoga_hint"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ 9th lord Venus in H10 strong=True",
+              "✓ 10th lord Mercury in H4 strong=True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "YOGA_004"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Venus",
+              "Mercury"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              10,
+              4
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "YOGA_004",
+            "book": "BPHS",
+            "sloka_id": "BPHS-YOGA-GK-01",
+            "chapter": "Yogas",
+            "sloka_ref": "GK-01",
+            "sanskrit": "चन्द्रे केन्द्रे गुरौ केन्द्रे गजकेसरी योगः।",
+            "translations": {
+              "en": "When Moon and Jupiter are both in kendras, Gajakesari yoga is indicated.",
+              "mr": "चंद्र व गुरु केंद्रात असतील तर गजकेसरी योगाचे संकेत.",
+              "hi": "चंद्र और गुरु केंद्र में हों तो गजकेसरी योग।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "dhana_yoga_hint",
+      "title": "Dhana Yoga Hint — 2nd/11th Support",
+      "summary": "Wealth house lords strong — Dhana yoga hint.",
+      "themes": [
+        "income",
+        "wealth"
+      ],
+      "evidence": [
+        "✓ 2th lord Venus in H10 strong=True",
+        "✓ 11th lord Moon in H9 strong=True"
+      ],
+      "used_rules": [
+        "YOGA_005"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "YOGA_005",
+          "name": "Dhana Yoga Hint — 2nd/11th Support",
+          "priority": 74,
+          "modern_interpretation": "Income capacity when dashas agree.",
+          "evidence_checks": [
+            "✓ 2th lord Venus in H10 strong=True",
+            "✓ 11th lord Moon in H9 strong=True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "YOGA_005",
+          "text": "BPHS",
+          "sloka_id": "BPHS-CAREER-10-01",
+          "chapter": "Karma Bhava",
+          "sloka": "K-10-01",
+          "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+          "english": "Strong 10th lord supports career accomplishment.",
+          "marathi": "बलवान दशमेश: कर्मात सिद्धी.",
+          "hindi": "बलवान दशमेश: करियर सिद्धि।"
+        }
+      ],
+      "confidence": 68.0,
+      "category": "yoga",
+      "ai_explanation": "«Dhana Yoga Hint — 2nd/11th Support» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~68.0%). નિયમ: YOGA_005. પુરાવા: ✓ 2th lord Venus in H10 strong=True; ✓ 11th lord Moon in H9 strong=True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "ab723629-942e-47c8-844d-2fbb17b6c7f8",
+        "created_at": "2026-07-30T10:21:28.517232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "dhana_yoga_hint",
+          "title": "Dhana Yoga Hint — 2nd/11th Support",
+          "summary": "Wealth house lords strong — Dhana yoga hint.",
+          "confidence": 68.0
+        },
+        "evidence": [
+          "✓ 2th lord Venus in H10 strong=True",
+          "✓ 11th lord Moon in H9 strong=True"
+        ],
+        "rules": [
+          "YOGA_005"
+        ],
+        "planets": [
+          "Venus",
+          "Moon"
+        ],
+        "houses": [
+          10,
+          9
+        ],
+        "rule_details": [
+          {
+            "rule_id": "YOGA_005",
+            "name": "Dhana Yoga Hint — 2nd/11th Support",
+            "priority": 74,
+            "modern_interpretation": "Income capacity when dashas agree.",
+            "evidence_checks": [
+              "✓ 2th lord Venus in H10 strong=True",
+              "✓ 11th lord Moon in H9 strong=True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "YOGA_005",
+            "book": "BPHS",
+            "sloka_id": "BPHS-CAREER-10-01",
+            "chapter": "Karma Bhava",
+            "sloka_ref": "K-10-01",
+            "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+            "translations": {
+              "en": "Strong 10th lord supports career accomplishment.",
+              "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+              "hi": "बलवान दशमेश: करियर सिद्धि।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Dhana Yoga Hint — 2nd/11th Support",
+            "key": "dhana_yoga_hint"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ 2th lord Venus in H10 strong=True",
+              "✓ 11th lord Moon in H9 strong=True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "YOGA_005"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Venus",
+              "Moon"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              10,
+              9
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "YOGA_005",
+            "book": "BPHS",
+            "sloka_id": "BPHS-CAREER-10-01",
+            "chapter": "Karma Bhava",
+            "sloka_ref": "K-10-01",
+            "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+            "translations": {
+              "en": "Strong 10th lord supports career accomplishment.",
+              "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+              "hi": "बलवान दशमेश: करियर सिद्धि।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "DOSHA_001",
+      "title": "Manglik Pattern",
+      "summary": "Mars in 1/4/7/8/12 — Manglik pattern (common North-Indian school).",
+      "themes": [
+        "energy_intensity",
+        "marriage_caution"
+      ],
+      "evidence": [
+        "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+      ],
+      "used_rules": [
+        "DOSHA_001"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "DOSHA_001",
+          "name": "Manglik Pattern",
+          "priority": 85,
+          "modern_interpretation": "Relationship timing/temper themes need careful matching.",
+          "evidence_checks": [
+            "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "DOSHA_001",
+          "text": "BPHS",
+          "sloka_id": "BPHS-MAR-7-01",
+          "chapter": "Kalatra",
+          "sloka": "M-7-01",
+          "sanskrit": "सप्तमेशे शनौ स्थिते विलम्बः सम्भवति।",
+          "english": "Saturn linked to the 7th is classically associated with delay/maturity in marriage.",
+          "marathi": "७व्या भावाशी शनी जोडला गेला तर विवाह विलंब/परिपक्वता.",
+          "hindi": "सप्तम से जुड़े शनि से विवाह विलंब/परिपक्वता।"
+        }
+      ],
+      "confidence": 74.0,
+      "category": "dosha",
+      "ai_explanation": "«Manglik Pattern» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~74.0%). નિયમ: DOSHA_001. પુરાવા: ✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "dad389ca-45b4-40ae-bbf0-d8029723890e",
+        "created_at": "2026-07-30T10:21:28.517232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "DOSHA_001",
+          "title": "Manglik Pattern",
+          "summary": "Mars in 1/4/7/8/12 — Manglik pattern (common North-Indian school).",
+          "confidence": 74.0
+        },
+        "evidence": [
+          "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+        ],
+        "rules": [
+          "DOSHA_001"
+        ],
+        "planets": [
+          "Mars"
+        ],
+        "houses": [
+          7
+        ],
+        "rule_details": [
+          {
+            "rule_id": "DOSHA_001",
+            "name": "Manglik Pattern",
+            "priority": 85,
+            "modern_interpretation": "Relationship timing/temper themes need careful matching.",
+            "evidence_checks": [
+              "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "DOSHA_001",
+            "book": "BPHS",
+            "sloka_id": "BPHS-MAR-7-01",
+            "chapter": "Kalatra",
+            "sloka_ref": "M-7-01",
+            "sanskrit": "सप्तमेशे शनौ स्थिते विलम्बः सम्भवति।",
+            "translations": {
+              "en": "Saturn linked to the 7th is classically associated with delay/maturity in marriage.",
+              "mr": "७व्या भावाशी शनी जोडला गेला तर विवाह विलंब/परिपक्वता.",
+              "hi": "सप्तम से जुड़े शनि से विवाह विलंब/परिपक्वता।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Manglik Pattern",
+            "key": "DOSHA_001"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "DOSHA_001"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Mars"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              7
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "DOSHA_001",
+            "book": "BPHS",
+            "sloka_id": "BPHS-MAR-7-01",
+            "chapter": "Kalatra",
+            "sloka_ref": "M-7-01",
+            "sanskrit": "सप्तमेशे शनौ स्थिते विलम्बः सम्भवति।",
+            "translations": {
+              "en": "Saturn linked to the 7th is classically associated with delay/maturity in marriage.",
+              "mr": "७व्या भावाशी शनी जोडला गेला तर विवाह विलंब/परिपक्वता.",
+              "hi": "सप्तम से जुड़े शनि से विवाह विलंब/परिपक्वता।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "marriage_window",
+      "title": "7th Lord Dasha Window",
+      "summary": "Current dasha involves 7th lord — timing window traditionally watched.",
+      "themes": [
+        "marriage_timing"
+      ],
+      "evidence": [
+        "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+      ],
+      "used_rules": [
+        "MAR_005"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "MAR_005",
+          "name": "7th Lord Dasha Window",
+          "priority": 82,
+          "modern_interpretation": "Prefer dasha windows aligned with 7th/Venus/Jupiter.",
+          "evidence_checks": [
+            "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "MAR_005",
+          "text": "Phaladeepika",
+          "sloka_id": "PD-DASHA-01",
+          "chapter": "Dasa Phala",
+          "sloka": "D-01",
+          "sanskrit": "दशाकाले फलपाकः।",
+          "english": "Results ripen primarily in relevant dashas.",
+          "marathi": "फलपाक संबंधित दशांमध्ये.",
+          "hindi": "फल मुख्यतः दशा में।"
+        }
+      ],
+      "confidence": 73.0,
+      "category": "marriage",
+      "ai_explanation": "«7th Lord Dasha Window» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~73.0%). નિયમ: MAR_005. પુરાવા: ✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "e852ca99-6ca9-4d8f-afd7-c69b312afecb",
+        "created_at": "2026-07-30T10:21:28.517232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "marriage_window",
+          "title": "7th Lord Dasha Window",
+          "summary": "Current dasha involves 7th lord — timing window traditionally watched.",
+          "confidence": 73.0
+        },
+        "evidence": [
+          "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+        ],
+        "rules": [
+          "MAR_005"
+        ],
+        "planets": [
+          "Jupiter",
+          "Ketu"
+        ],
+        "houses": [],
+        "rule_details": [
+          {
+            "rule_id": "MAR_005",
+            "name": "7th Lord Dasha Window",
+            "priority": 82,
+            "modern_interpretation": "Prefer dasha windows aligned with 7th/Venus/Jupiter.",
+            "evidence_checks": [
+              "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "MAR_005",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "7th Lord Dasha Window",
+            "key": "marriage_window"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "MAR_005"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Jupiter",
+              "Ketu"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": []
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "MAR_005",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "spouse_navamsa_active",
+      "title": "Navamsa 7th Focus",
+      "summary": "Navamsa examined for spouse themes (Jataka Parijata tradition).",
+      "themes": [
+        "spouse_navamsa"
+      ],
+      "evidence": [
+        "✓ Navamsa focus examined=True"
+      ],
+      "used_rules": [
+        "MAR_004"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "MAR_004",
+          "name": "Navamsa 7th Focus",
+          "priority": 70,
+          "modern_interpretation": "D9 confirmation layer for relationship conclusions.",
+          "evidence_checks": [
+            "✓ Navamsa focus examined=True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "MAR_004",
+          "text": "Jataka Parijata",
+          "sloka_id": "JP-NAVAMSA-01",
+          "chapter": "Navamsa",
+          "sloka": "N-01",
+          "sanskrit": "नवमांशे कलत्रभावः विशेषेण द्रष्टव्यः।",
+          "english": "Spouse themes are especially examined in Navamsa.",
+          "marathi": "कलत्र विशेषतः नवांशात पाहावे.",
+          "hindi": "दाम्पत्य विशेषकर नवमांश में।"
+        }
+      ],
+      "confidence": 68.0,
+      "category": "marriage",
+      "ai_explanation": "«Navamsa 7th Focus» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~68.0%). નિયમ: MAR_004. પુરાવા: ✓ Navamsa focus examined=True. ગ્રંથ: Jataka Parijata. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "935269c8-3013-4024-944a-cf061986430c",
+        "created_at": "2026-07-30T10:21:28.517232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "spouse_navamsa_active",
+          "title": "Navamsa 7th Focus",
+          "summary": "Navamsa examined for spouse themes (Jataka Parijata tradition).",
+          "confidence": 68.0
+        },
+        "evidence": [
+          "✓ Navamsa focus examined=True"
+        ],
+        "rules": [
+          "MAR_004"
+        ],
+        "planets": [],
+        "houses": [],
+        "rule_details": [
+          {
+            "rule_id": "MAR_004",
+            "name": "Navamsa 7th Focus",
+            "priority": 70,
+            "modern_interpretation": "D9 confirmation layer for relationship conclusions.",
+            "evidence_checks": [
+              "✓ Navamsa focus examined=True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "MAR_004",
+            "book": "Jataka Parijata",
+            "sloka_id": "JP-NAVAMSA-01",
+            "chapter": "Navamsa",
+            "sloka_ref": "N-01",
+            "sanskrit": "नवमांशे कलत्रभावः विशेषेण द्रष्टव्यः।",
+            "translations": {
+              "en": "Spouse themes are especially examined in Navamsa.",
+              "mr": "कलत्र विशेषतः नवांशात पाहावे.",
+              "hi": "दाम्पत्य विशेषकर नवमांश में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Navamsa 7th Focus",
+            "key": "spouse_navamsa_active"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Navamsa focus examined=True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "MAR_004"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": []
+          },
+          {
+            "step": "houses",
+            "items": []
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "MAR_004",
+            "book": "Jataka Parijata",
+            "sloka_id": "JP-NAVAMSA-01",
+            "chapter": "Navamsa",
+            "sloka_ref": "N-01",
+            "sanskrit": "नवमांशे कलत्रभावः विशेषेण द्रष्टव्यः।",
+            "translations": {
+              "en": "Spouse themes are especially examined in Navamsa.",
+              "mr": "कलत्र विशेषतः नवांशात पाहावे.",
+              "hi": "दाम्पत्य विशेषकर नवमांश में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "career_strong",
+      "title": "Strong 10th Lord — Career Accomplishment",
+      "summary": "10th lord well placed — career accomplishment theme.",
+      "themes": [
+        "career_growth",
+        "status"
+      ],
+      "evidence": [
+        "✓ 10th lord Mercury in H4 strong=True"
+      ],
+      "used_rules": [
+        "CAR_001"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "CAR_001",
+          "name": "Strong 10th Lord — Career Accomplishment",
+          "priority": 85,
+          "modern_interpretation": "Vocational focus and public role capacity.",
+          "evidence_checks": [
+            "✓ 10th lord Mercury in H4 strong=True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "CAR_001",
+          "text": "BPHS",
+          "sloka_id": "BPHS-CAREER-10-01",
+          "chapter": "Karma Bhava",
+          "sloka": "K-10-01",
+          "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+          "english": "Strong 10th lord supports career accomplishment.",
+          "marathi": "बलवान दशमेश: कर्मात सिद्धी.",
+          "hindi": "बलवान दशमेश: करियर सिद्धि।"
+        }
+      ],
+      "confidence": 76.0,
+      "category": "career",
+      "ai_explanation": "«Strong 10th Lord — Career Accomplishment» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~76.0%). નિયમ: CAR_001. પુરાવા: ✓ 10th lord Mercury in H4 strong=True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "6f239c93-4140-4855-9cf3-46b351dcde5e",
+        "created_at": "2026-07-30T10:21:28.517232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "career_strong",
+          "title": "Strong 10th Lord — Career Accomplishment",
+          "summary": "10th lord well placed — career accomplishment theme.",
+          "confidence": 76.0
+        },
+        "evidence": [
+          "✓ 10th lord Mercury in H4 strong=True"
+        ],
+        "rules": [
+          "CAR_001"
+        ],
+        "planets": [
+          "Mercury"
+        ],
+        "houses": [
+          4
+        ],
+        "rule_details": [
+          {
+            "rule_id": "CAR_001",
+            "name": "Strong 10th Lord — Career Accomplishment",
+            "priority": 85,
+            "modern_interpretation": "Vocational focus and public role capacity.",
+            "evidence_checks": [
+              "✓ 10th lord Mercury in H4 strong=True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "CAR_001",
+            "book": "BPHS",
+            "sloka_id": "BPHS-CAREER-10-01",
+            "chapter": "Karma Bhava",
+            "sloka_ref": "K-10-01",
+            "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+            "translations": {
+              "en": "Strong 10th lord supports career accomplishment.",
+              "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+              "hi": "बलवान दशमेश: करियर सिद्धि।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Strong 10th Lord — Career Accomplishment",
+            "key": "career_strong"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ 10th lord Mercury in H4 strong=True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "CAR_001"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Mercury"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              4
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "CAR_001",
+            "book": "BPHS",
+            "sloka_id": "BPHS-CAREER-10-01",
+            "chapter": "Karma Bhava",
+            "sloka_ref": "K-10-01",
+            "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+            "translations": {
+              "en": "Strong 10th lord supports career accomplishment.",
+              "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+              "hi": "बलवान दशमेश: करियर सिद्धि।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "career_research",
+      "title": "Mercury-Jupiter — Research / Teaching / Advisory",
+      "summary": "Mercury+Jupiter kendra strength — research/teaching/advisory themes.",
+      "themes": [
+        "advisory",
+        "research",
+        "teaching"
+      ],
+      "evidence": [
+        "✓ Mercury in house 4 (kendra=True)",
+        "✓ Jupiter in house 10 (kendra=True)"
+      ],
+      "used_rules": [
+        "CAR_006"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "CAR_006",
+          "name": "Mercury-Jupiter — Research / Teaching / Advisory",
+          "priority": 71,
+          "modern_interpretation": "Knowledge work, academia, consulting.",
+          "evidence_checks": [
+            "✓ Mercury in house 4 (kendra=True)",
+            "✓ Jupiter in house 10 (kendra=True)"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "CAR_006",
+          "text": "Brihat Jataka",
+          "sloka_id": "BJ-KENDRA-01",
+          "chapter": "Houses",
+          "sloka": "H-01",
+          "sanskrit": "केन्द्रस्थाः ग्रहाः बलवन्तः।",
+          "english": "Planets in kendras are considered strong.",
+          "marathi": "केंद्रातील ग्रह बलवान.",
+          "hindi": "केंद्रस्थ ग्रह बलवान।"
+        }
+      ],
+      "confidence": 68.0,
+      "category": "career",
+      "ai_explanation": "«Mercury-Jupiter — Research / Teaching / Advisory» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~68.0%). નિયમ: CAR_006. પુરાવા: ✓ Mercury in house 4 (kendra=True); ✓ Jupiter in house 10 (kendra=True). ગ્રંથ: Brihat Jataka. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "8007d93a-2441-4830-a37a-ee927808380d",
+        "created_at": "2026-07-30T10:21:28.517232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "career_research",
+          "title": "Mercury-Jupiter — Research / Teaching / Advisory",
+          "summary": "Mercury+Jupiter kendra strength — research/teaching/advisory themes.",
+          "confidence": 68.0
+        },
+        "evidence": [
+          "✓ Mercury in house 4 (kendra=True)",
+          "✓ Jupiter in house 10 (kendra=True)"
+        ],
+        "rules": [
+          "CAR_006"
+        ],
+        "planets": [
+          "Mercury",
+          "Jupiter"
+        ],
+        "houses": [
+          4,
+          10
+        ],
+        "rule_details": [
+          {
+            "rule_id": "CAR_006",
+            "name": "Mercury-Jupiter — Research / Teaching / Advisory",
+            "priority": 71,
+            "modern_interpretation": "Knowledge work, academia, consulting.",
+            "evidence_checks": [
+              "✓ Mercury in house 4 (kendra=True)",
+              "✓ Jupiter in house 10 (kendra=True)"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "CAR_006",
+            "book": "Brihat Jataka",
+            "sloka_id": "BJ-KENDRA-01",
+            "chapter": "Houses",
+            "sloka_ref": "H-01",
+            "sanskrit": "केन्द्रस्थाः ग्रहाः बलवन्तः।",
+            "translations": {
+              "en": "Planets in kendras are considered strong.",
+              "mr": "केंद्रातील ग्रह बलवान.",
+              "hi": "केंद्रस्थ ग्रह बलवान।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Mercury-Jupiter — Research / Teaching / Advisory",
+            "key": "career_research"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Mercury in house 4 (kendra=True)",
+              "✓ Jupiter in house 10 (kendra=True)"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "CAR_006"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Mercury",
+              "Jupiter"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              4,
+              10
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "CAR_006",
+            "book": "Brihat Jataka",
+            "sloka_id": "BJ-KENDRA-01",
+            "chapter": "Houses",
+            "sloka_ref": "H-01",
+            "sanskrit": "केन्द्रस्थाः ग्रहाः बलवन्तः।",
+            "translations": {
+              "en": "Planets in kendras are considered strong.",
+              "mr": "केंद्रातील ग्रह बलवान.",
+              "hi": "केंद्रस्थ ग्रह बलवान।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "career_markets",
+      "title": "Venus-Mercury — Markets / Design / Media Finance",
+      "summary": "Venus-Mercury wealth/skill links — finance, markets, design/media.",
+      "themes": [
+        "design",
+        "finance",
+        "media",
+        "stock_market"
+      ],
+      "evidence": [
+        "✓ Venus in H10 (need [2, 10, 11]) → True"
+      ],
+      "used_rules": [
+        "CAR_007"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "CAR_007",
+          "name": "Venus-Mercury — Markets / Design / Media Finance",
+          "priority": 70,
+          "modern_interpretation": "Trading, branding, creative commerce.",
+          "evidence_checks": [
+            "✗ Venus/Mercury same sign=False",
+            "✓ Venus in H10 (need [2, 10, 11]) → True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "CAR_007",
+          "text": "Saravali",
+          "sloka_id": "SAR-BUDHADITYA-01",
+          "chapter": "Yogas",
+          "sloka": "Y-01",
+          "sanskrit": "रविबुधयुतिः बुद्धियोगः।",
+          "english": "Sun-Mercury association: intelligence/articulation.",
+          "marathi": "सूर्य-बुध: बुद्धी/अभिव्यक्ती.",
+          "hindi": "सूर्य-बुध: बुद्धि/अभिव्यक्ति।"
+        }
+      ],
+      "confidence": 67.0,
+      "category": "career",
+      "ai_explanation": "«Venus-Mercury — Markets / Design / Media Finance» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~67.0%). નિયમ: CAR_007. પુરાવા: ✓ Venus in H10 (need [2, 10, 11]) → True. ગ્રંથ: Saravali. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "ff300927-2dc8-43b5-8826-a26a6cde5164",
+        "created_at": "2026-07-30T10:21:28.518232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "career_markets",
+          "title": "Venus-Mercury — Markets / Design / Media Finance",
+          "summary": "Venus-Mercury wealth/skill links — finance, markets, design/media.",
+          "confidence": 67.0
+        },
+        "evidence": [
+          "✓ Venus in H10 (need [2, 10, 11]) → True"
+        ],
+        "rules": [
+          "CAR_007"
+        ],
+        "planets": [
+          "Venus",
+          "Mercury"
+        ],
+        "houses": [
+          10
+        ],
+        "rule_details": [
+          {
+            "rule_id": "CAR_007",
+            "name": "Venus-Mercury — Markets / Design / Media Finance",
+            "priority": 70,
+            "modern_interpretation": "Trading, branding, creative commerce.",
+            "evidence_checks": [
+              "✗ Venus/Mercury same sign=False",
+              "✓ Venus in H10 (need [2, 10, 11]) → True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "CAR_007",
+            "book": "Saravali",
+            "sloka_id": "SAR-BUDHADITYA-01",
+            "chapter": "Yogas",
+            "sloka_ref": "Y-01",
+            "sanskrit": "रविबुधयुतिः बुद्धियोगः।",
+            "translations": {
+              "en": "Sun-Mercury association: intelligence/articulation.",
+              "mr": "सूर्य-बुध: बुद्धी/अभिव्यक्ती.",
+              "hi": "सूर्य-बुध: बुद्धि/अभिव्यक्ति।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Venus-Mercury — Markets / Design / Media Finance",
+            "key": "career_markets"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Venus in H10 (need [2, 10, 11]) → True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "CAR_007"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Venus",
+              "Mercury"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              10
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "CAR_007",
+            "book": "Saravali",
+            "sloka_id": "SAR-BUDHADITYA-01",
+            "chapter": "Yogas",
+            "sloka_ref": "Y-01",
+            "sanskrit": "रविबुधयुतिः बुद्धियोगः।",
+            "translations": {
+              "en": "Sun-Mercury association: intelligence/articulation.",
+              "mr": "सूर्य-बुध: बुद्धी/अभिव्यक्ती.",
+              "hi": "सूर्य-बुध: बुद्धि/अभिव्यक्ति।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "transit_saturn_kendra",
+      "title": "Saturn Transit on Natal Kendra",
+      "summary": "Saturn transit on natal kendra — discipline/restructuring theme.",
+      "themes": [
+        "discipline",
+        "pressure",
+        "restructuring"
+      ],
+      "evidence": [
+        "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+      ],
+      "used_rules": [
+        "TR_002"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "TR_002",
+          "name": "Saturn Transit on Natal Kendra",
+          "priority": 80,
+          "modern_interpretation": "Long-cycle responsibility; patience required.",
+          "evidence_checks": [
+            "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "TR_002",
+          "text": "Phaladeepika",
+          "sloka_id": "PD-DASHA-01",
+          "chapter": "Dasa Phala",
+          "sloka": "D-01",
+          "sanskrit": "दशाकाले फलपाकः।",
+          "english": "Results ripen primarily in relevant dashas.",
+          "marathi": "फलपाक संबंधित दशांमध्ये.",
+          "hindi": "फल मुख्यतः दशा में।"
+        }
+      ],
+      "confidence": 74.0,
+      "category": "transit",
+      "ai_explanation": "«Saturn Transit on Natal Kendra» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~74.0%). નિયમ: TR_002. પુરાવા: ✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "ad74d7db-e3d6-49e7-a9f9-405bfb5063b8",
+        "created_at": "2026-07-30T10:21:28.518232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "transit_saturn_kendra",
+          "title": "Saturn Transit on Natal Kendra",
+          "summary": "Saturn transit on natal kendra — discipline/restructuring theme.",
+          "confidence": 74.0
+        },
+        "evidence": [
+          "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+        ],
+        "rules": [
+          "TR_002"
+        ],
+        "planets": [
+          "Saturn"
+        ],
+        "houses": [
+          7
+        ],
+        "rule_details": [
+          {
+            "rule_id": "TR_002",
+            "name": "Saturn Transit on Natal Kendra",
+            "priority": 80,
+            "modern_interpretation": "Long-cycle responsibility; patience required.",
+            "evidence_checks": [
+              "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "TR_002",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Saturn Transit on Natal Kendra",
+            "key": "transit_saturn_kendra"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "TR_002"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Saturn"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              7
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "TR_002",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "transit_jupiter_wealth_dharma",
+      "title": "Jupiter Transit on 2/5/9/11",
+      "summary": "Jupiter on wealth/dharma houses — growth themes.",
+      "themes": [
+        "fortune",
+        "growth",
+        "learning"
+      ],
+      "evidence": [
+        "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+      ],
+      "used_rules": [
+        "TR_005"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "TR_005",
+          "name": "Jupiter Transit on 2/5/9/11",
+          "priority": 78,
+          "modern_interpretation": "Expansion when natal dasha supports.",
+          "evidence_checks": [
+            "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "TR_005",
+          "text": "Phaladeepika",
+          "sloka_id": "PD-DASHA-01",
+          "chapter": "Dasa Phala",
+          "sloka": "D-01",
+          "sanskrit": "दशाकाले फलपाकः।",
+          "english": "Results ripen primarily in relevant dashas.",
+          "marathi": "फलपाक संबंधित दशांमध्ये.",
+          "hindi": "फल मुख्यतः दशा में।"
+        }
+      ],
+      "confidence": 72.0,
+      "category": "transit",
+      "ai_explanation": "«Jupiter Transit on 2/5/9/11» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~72.0%). નિયમ: TR_005. પુરાવા: ✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "f3deaa98-0d5d-4f04-8bf8-2f3e678d2e71",
+        "created_at": "2026-07-30T10:21:28.518232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "transit_jupiter_wealth_dharma",
+          "title": "Jupiter Transit on 2/5/9/11",
+          "summary": "Jupiter on wealth/dharma houses — growth themes.",
+          "confidence": 72.0
+        },
+        "evidence": [
+          "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+        ],
+        "rules": [
+          "TR_005"
+        ],
+        "planets": [
+          "Jupiter"
+        ],
+        "houses": [
+          11
+        ],
+        "rule_details": [
+          {
+            "rule_id": "TR_005",
+            "name": "Jupiter Transit on 2/5/9/11",
+            "priority": 78,
+            "modern_interpretation": "Expansion when natal dasha supports.",
+            "evidence_checks": [
+              "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "TR_005",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Jupiter Transit on 2/5/9/11",
+            "key": "transit_jupiter_wealth_dharma"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "TR_005"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Jupiter"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              11
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "TR_005",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    },
+    {
+      "conclusion_key": "transit_ketu_focus",
+      "title": "Ketu Transit on 1/8/12",
+      "summary": "Ketu transit on 1/8/12 — detachment/release themes.",
+      "themes": [
+        "detachment",
+        "release",
+        "spiritual"
+      ],
+      "evidence": [
+        "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+      ],
+      "used_rules": [
+        "TR_004"
+      ],
+      "rule_details": [
+        {
+          "rule_id": "TR_004",
+          "name": "Ketu Transit on 1/8/12",
+          "priority": 70,
+          "modern_interpretation": "Let-go cycles; refine priorities.",
+          "evidence_checks": [
+            "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "rule_id": "TR_004",
+          "text": "Phaladeepika",
+          "sloka_id": "PD-DASHA-01",
+          "chapter": "Dasa Phala",
+          "sloka": "D-01",
+          "sanskrit": "दशाकाले फलपाकः।",
+          "english": "Results ripen primarily in relevant dashas.",
+          "marathi": "फलपाक संबंधित दशांमध्ये.",
+          "hindi": "फल मुख्यतः दशा में।"
+        }
+      ],
+      "confidence": 64.0,
+      "category": "transit",
+      "ai_explanation": "«Ketu Transit on 1/8/12» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~64.0%). નિયમ: TR_004. પુરાવા: ✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+      "ai_meta": {
+        "provider": "astroos_evidence_explainer",
+        "invented": false,
+        "inputs_used": [
+          "evidence",
+          "matched_rules",
+          "classical_sources",
+          "confidence"
+        ]
+      },
+      "audit": {
+        "audit_id": "7e58f662-122b-4c2a-85b1-2c92103545c0",
+        "created_at": "2026-07-30T10:21:28.518232+00:00",
+        "chart_meta": {
+          "name": "t",
+          "place": null,
+          "jd_ut": 2448118.7083333335,
+          "utc": "1990-08-15T05:00:00+00:00",
+          "timezone": "Asia/Kolkata",
+          "latitude": 19.076,
+          "longitude": 72.8777,
+          "ayanamsha": "lahiri",
+          "house_system": "W",
+          "ephemeris_engine": "approximate_dev"
+        },
+        "prediction": {
+          "conclusion_key": "transit_ketu_focus",
+          "title": "Ketu Transit on 1/8/12",
+          "summary": "Ketu transit on 1/8/12 — detachment/release themes.",
+          "confidence": 64.0
+        },
+        "evidence": [
+          "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+        ],
+        "rules": [
+          "TR_004"
+        ],
+        "planets": [
+          "Ketu"
+        ],
+        "houses": [
+          12
+        ],
+        "rule_details": [
+          {
+            "rule_id": "TR_004",
+            "name": "Ketu Transit on 1/8/12",
+            "priority": 70,
+            "modern_interpretation": "Let-go cycles; refine priorities.",
+            "evidence_checks": [
+              "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+            ]
+          }
+        ],
+        "classical_chain": [
+          {
+            "step": "book_sloka",
+            "rule_id": "TR_004",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "full_chain": [
+          {
+            "step": "prediction",
+            "value": "Ketu Transit on 1/8/12",
+            "key": "transit_ketu_focus"
+          },
+          {
+            "step": "evidence",
+            "items": [
+              "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+            ]
+          },
+          {
+            "step": "rules",
+            "items": [
+              "TR_004"
+            ]
+          },
+          {
+            "step": "planets",
+            "items": [
+              "Ketu"
+            ]
+          },
+          {
+            "step": "houses",
+            "items": [
+              12
+            ]
+          },
+          {
+            "step": "book_sloka",
+            "rule_id": "TR_004",
+            "book": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka_ref": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "translations": {
+              "en": "Results ripen primarily in relevant dashas.",
+              "mr": "फलपाक संबंधित दशांमध्ये.",
+              "hi": "फल मुख्यतः दशा में।",
+              "gu": null,
+              "kn": null,
+              "ta": null,
+              "te": null
+            }
+          }
+        ],
+        "verifiability": {
+          "transparent": true,
+          "ai_invented": false,
+          "chain": "prediction→evidence→rule→planet→house→book→sloka",
+          "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+        }
+      }
+    }
+  ],
+  "by_category": {
+    "yoga": [
+      {
+        "conclusion_key": "raja_yoga_hint",
+        "title": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+        "summary": "9th and 10th lords strong — Raja yoga capability theme.",
+        "themes": [
+          "authority",
+          "status",
+          "success"
+        ],
+        "evidence": [
+          "✓ 9th lord Venus in H10 strong=True",
+          "✓ 10th lord Mercury in H4 strong=True"
+        ],
+        "used_rules": [
+          "YOGA_004"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "YOGA_004",
+            "name": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+            "priority": 78,
+            "modern_interpretation": "Dharma-karma alignment supporting rise.",
+            "evidence_checks": [
+              "✓ 9th lord Venus in H10 strong=True",
+              "✓ 10th lord Mercury in H4 strong=True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "YOGA_004",
+            "text": "BPHS",
+            "sloka_id": "BPHS-YOGA-GK-01",
+            "chapter": "Yogas",
+            "sloka": "GK-01",
+            "sanskrit": "चन्द्रे केन्द्रे गुरौ केन्द्रे गजकेसरी योगः।",
+            "english": "When Moon and Jupiter are both in kendras, Gajakesari yoga is indicated.",
+            "marathi": "चंद्र व गुरु केंद्रात असतील तर गजकेसरी योगाचे संकेत.",
+            "hindi": "चंद्र और गुरु केंद्र में हों तो गजकेसरी योग।"
+          }
+        ],
+        "confidence": 70.0,
+        "category": "yoga",
+        "ai_explanation": "«Raja Yoga Hint — Kendra/Trikona Lords Link» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~70.0%). નિયમ: YOGA_004. પુરાવા: ✓ 9th lord Venus in H10 strong=True; ✓ 10th lord Mercury in H4 strong=True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "ac0be788-b6af-4b8b-9c87-63070497e134",
+          "created_at": "2026-07-30T10:21:28.517232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "raja_yoga_hint",
+            "title": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+            "summary": "9th and 10th lords strong — Raja yoga capability theme.",
+            "confidence": 70.0
+          },
+          "evidence": [
+            "✓ 9th lord Venus in H10 strong=True",
+            "✓ 10th lord Mercury in H4 strong=True"
+          ],
+          "rules": [
+            "YOGA_004"
+          ],
+          "planets": [
+            "Venus",
+            "Mercury"
+          ],
+          "houses": [
+            10,
+            4
+          ],
+          "rule_details": [
+            {
+              "rule_id": "YOGA_004",
+              "name": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+              "priority": 78,
+              "modern_interpretation": "Dharma-karma alignment supporting rise.",
+              "evidence_checks": [
+                "✓ 9th lord Venus in H10 strong=True",
+                "✓ 10th lord Mercury in H4 strong=True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "YOGA_004",
+              "book": "BPHS",
+              "sloka_id": "BPHS-YOGA-GK-01",
+              "chapter": "Yogas",
+              "sloka_ref": "GK-01",
+              "sanskrit": "चन्द्रे केन्द्रे गुरौ केन्द्रे गजकेसरी योगः।",
+              "translations": {
+                "en": "When Moon and Jupiter are both in kendras, Gajakesari yoga is indicated.",
+                "mr": "चंद्र व गुरु केंद्रात असतील तर गजकेसरी योगाचे संकेत.",
+                "hi": "चंद्र और गुरु केंद्र में हों तो गजकेसरी योग।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Raja Yoga Hint — Kendra/Trikona Lords Link",
+              "key": "raja_yoga_hint"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ 9th lord Venus in H10 strong=True",
+                "✓ 10th lord Mercury in H4 strong=True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "YOGA_004"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Venus",
+                "Mercury"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                10,
+                4
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "YOGA_004",
+              "book": "BPHS",
+              "sloka_id": "BPHS-YOGA-GK-01",
+              "chapter": "Yogas",
+              "sloka_ref": "GK-01",
+              "sanskrit": "चन्द्रे केन्द्रे गुरौ केन्द्रे गजकेसरी योगः।",
+              "translations": {
+                "en": "When Moon and Jupiter are both in kendras, Gajakesari yoga is indicated.",
+                "mr": "चंद्र व गुरु केंद्रात असतील तर गजकेसरी योगाचे संकेत.",
+                "hi": "चंद्र और गुरु केंद्र में हों तो गजकेसरी योग।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      },
+      {
+        "conclusion_key": "dhana_yoga_hint",
+        "title": "Dhana Yoga Hint — 2nd/11th Support",
+        "summary": "Wealth house lords strong — Dhana yoga hint.",
+        "themes": [
+          "income",
+          "wealth"
+        ],
+        "evidence": [
+          "✓ 2th lord Venus in H10 strong=True",
+          "✓ 11th lord Moon in H9 strong=True"
+        ],
+        "used_rules": [
+          "YOGA_005"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "YOGA_005",
+            "name": "Dhana Yoga Hint — 2nd/11th Support",
+            "priority": 74,
+            "modern_interpretation": "Income capacity when dashas agree.",
+            "evidence_checks": [
+              "✓ 2th lord Venus in H10 strong=True",
+              "✓ 11th lord Moon in H9 strong=True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "YOGA_005",
+            "text": "BPHS",
+            "sloka_id": "BPHS-CAREER-10-01",
+            "chapter": "Karma Bhava",
+            "sloka": "K-10-01",
+            "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+            "english": "Strong 10th lord supports career accomplishment.",
+            "marathi": "बलवान दशमेश: कर्मात सिद्धी.",
+            "hindi": "बलवान दशमेश: करियर सिद्धि।"
+          }
+        ],
+        "confidence": 68.0,
+        "category": "yoga",
+        "ai_explanation": "«Dhana Yoga Hint — 2nd/11th Support» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~68.0%). નિયમ: YOGA_005. પુરાવા: ✓ 2th lord Venus in H10 strong=True; ✓ 11th lord Moon in H9 strong=True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "ab723629-942e-47c8-844d-2fbb17b6c7f8",
+          "created_at": "2026-07-30T10:21:28.517232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "dhana_yoga_hint",
+            "title": "Dhana Yoga Hint — 2nd/11th Support",
+            "summary": "Wealth house lords strong — Dhana yoga hint.",
+            "confidence": 68.0
+          },
+          "evidence": [
+            "✓ 2th lord Venus in H10 strong=True",
+            "✓ 11th lord Moon in H9 strong=True"
+          ],
+          "rules": [
+            "YOGA_005"
+          ],
+          "planets": [
+            "Venus",
+            "Moon"
+          ],
+          "houses": [
+            10,
+            9
+          ],
+          "rule_details": [
+            {
+              "rule_id": "YOGA_005",
+              "name": "Dhana Yoga Hint — 2nd/11th Support",
+              "priority": 74,
+              "modern_interpretation": "Income capacity when dashas agree.",
+              "evidence_checks": [
+                "✓ 2th lord Venus in H10 strong=True",
+                "✓ 11th lord Moon in H9 strong=True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "YOGA_005",
+              "book": "BPHS",
+              "sloka_id": "BPHS-CAREER-10-01",
+              "chapter": "Karma Bhava",
+              "sloka_ref": "K-10-01",
+              "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+              "translations": {
+                "en": "Strong 10th lord supports career accomplishment.",
+                "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+                "hi": "बलवान दशमेश: करियर सिद्धि।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Dhana Yoga Hint — 2nd/11th Support",
+              "key": "dhana_yoga_hint"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ 2th lord Venus in H10 strong=True",
+                "✓ 11th lord Moon in H9 strong=True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "YOGA_005"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Venus",
+                "Moon"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                10,
+                9
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "YOGA_005",
+              "book": "BPHS",
+              "sloka_id": "BPHS-CAREER-10-01",
+              "chapter": "Karma Bhava",
+              "sloka_ref": "K-10-01",
+              "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+              "translations": {
+                "en": "Strong 10th lord supports career accomplishment.",
+                "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+                "hi": "बलवान दशमेश: करियर सिद्धि।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      }
+    ],
+    "dosha": [
+      {
+        "conclusion_key": "DOSHA_001",
+        "title": "Manglik Pattern",
+        "summary": "Mars in 1/4/7/8/12 — Manglik pattern (common North-Indian school).",
+        "themes": [
+          "energy_intensity",
+          "marriage_caution"
+        ],
+        "evidence": [
+          "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+        ],
+        "used_rules": [
+          "DOSHA_001"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "DOSHA_001",
+            "name": "Manglik Pattern",
+            "priority": 85,
+            "modern_interpretation": "Relationship timing/temper themes need careful matching.",
+            "evidence_checks": [
+              "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "DOSHA_001",
+            "text": "BPHS",
+            "sloka_id": "BPHS-MAR-7-01",
+            "chapter": "Kalatra",
+            "sloka": "M-7-01",
+            "sanskrit": "सप्तमेशे शनौ स्थिते विलम्बः सम्भवति।",
+            "english": "Saturn linked to the 7th is classically associated with delay/maturity in marriage.",
+            "marathi": "७व्या भावाशी शनी जोडला गेला तर विवाह विलंब/परिपक्वता.",
+            "hindi": "सप्तम से जुड़े शनि से विवाह विलंब/परिपक्वता।"
+          }
+        ],
+        "confidence": 74.0,
+        "category": "dosha",
+        "ai_explanation": "«Manglik Pattern» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~74.0%). નિયમ: DOSHA_001. પુરાવા: ✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "dad389ca-45b4-40ae-bbf0-d8029723890e",
+          "created_at": "2026-07-30T10:21:28.517232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "DOSHA_001",
+            "title": "Manglik Pattern",
+            "summary": "Mars in 1/4/7/8/12 — Manglik pattern (common North-Indian school).",
+            "confidence": 74.0
+          },
+          "evidence": [
+            "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+          ],
+          "rules": [
+            "DOSHA_001"
+          ],
+          "planets": [
+            "Mars"
+          ],
+          "houses": [
+            7
+          ],
+          "rule_details": [
+            {
+              "rule_id": "DOSHA_001",
+              "name": "Manglik Pattern",
+              "priority": 85,
+              "modern_interpretation": "Relationship timing/temper themes need careful matching.",
+              "evidence_checks": [
+                "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "DOSHA_001",
+              "book": "BPHS",
+              "sloka_id": "BPHS-MAR-7-01",
+              "chapter": "Kalatra",
+              "sloka_ref": "M-7-01",
+              "sanskrit": "सप्तमेशे शनौ स्थिते विलम्बः सम्भवति।",
+              "translations": {
+                "en": "Saturn linked to the 7th is classically associated with delay/maturity in marriage.",
+                "mr": "७व्या भावाशी शनी जोडला गेला तर विवाह विलंब/परिपक्वता.",
+                "hi": "सप्तम से जुड़े शनि से विवाह विलंब/परिपक्वता।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Manglik Pattern",
+              "key": "DOSHA_001"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Mars in H7 (need [1, 4, 7, 8, 12]) → True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "DOSHA_001"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Mars"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                7
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "DOSHA_001",
+              "book": "BPHS",
+              "sloka_id": "BPHS-MAR-7-01",
+              "chapter": "Kalatra",
+              "sloka_ref": "M-7-01",
+              "sanskrit": "सप्तमेशे शनौ स्थिते विलम्बः सम्भवति।",
+              "translations": {
+                "en": "Saturn linked to the 7th is classically associated with delay/maturity in marriage.",
+                "mr": "७व्या भावाशी शनी जोडला गेला तर विवाह विलंब/परिपक्वता.",
+                "hi": "सप्तम से जुड़े शनि से विवाह विलंब/परिपक्वता।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      }
+    ],
+    "marriage": [
+      {
+        "conclusion_key": "marriage_window",
+        "title": "7th Lord Dasha Window",
+        "summary": "Current dasha involves 7th lord — timing window traditionally watched.",
+        "themes": [
+          "marriage_timing"
+        ],
+        "evidence": [
+          "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+        ],
+        "used_rules": [
+          "MAR_005"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "MAR_005",
+            "name": "7th Lord Dasha Window",
+            "priority": 82,
+            "modern_interpretation": "Prefer dasha windows aligned with 7th/Venus/Jupiter.",
+            "evidence_checks": [
+              "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "MAR_005",
+            "text": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "english": "Results ripen primarily in relevant dashas.",
+            "marathi": "फलपाक संबंधित दशांमध्ये.",
+            "hindi": "फल मुख्यतः दशा में।"
+          }
+        ],
+        "confidence": 73.0,
+        "category": "marriage",
+        "ai_explanation": "«7th Lord Dasha Window» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~73.0%). નિયમ: MAR_005. પુરાવા: ✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "e852ca99-6ca9-4d8f-afd7-c69b312afecb",
+          "created_at": "2026-07-30T10:21:28.517232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "marriage_window",
+            "title": "7th Lord Dasha Window",
+            "summary": "Current dasha involves 7th lord — timing window traditionally watched.",
+            "confidence": 73.0
+          },
+          "evidence": [
+            "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+          ],
+          "rules": [
+            "MAR_005"
+          ],
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "houses": [],
+          "rule_details": [
+            {
+              "rule_id": "MAR_005",
+              "name": "7th Lord Dasha Window",
+              "priority": 82,
+              "modern_interpretation": "Prefer dasha windows aligned with 7th/Venus/Jupiter.",
+              "evidence_checks": [
+                "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "MAR_005",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "7th Lord Dasha Window",
+              "key": "marriage_window"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Dasha Jupiter/Ketu vs 7th lord Jupiter → True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "MAR_005"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Jupiter",
+                "Ketu"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": []
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "MAR_005",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      },
+      {
+        "conclusion_key": "spouse_navamsa_active",
+        "title": "Navamsa 7th Focus",
+        "summary": "Navamsa examined for spouse themes (Jataka Parijata tradition).",
+        "themes": [
+          "spouse_navamsa"
+        ],
+        "evidence": [
+          "✓ Navamsa focus examined=True"
+        ],
+        "used_rules": [
+          "MAR_004"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "MAR_004",
+            "name": "Navamsa 7th Focus",
+            "priority": 70,
+            "modern_interpretation": "D9 confirmation layer for relationship conclusions.",
+            "evidence_checks": [
+              "✓ Navamsa focus examined=True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "MAR_004",
+            "text": "Jataka Parijata",
+            "sloka_id": "JP-NAVAMSA-01",
+            "chapter": "Navamsa",
+            "sloka": "N-01",
+            "sanskrit": "नवमांशे कलत्रभावः विशेषेण द्रष्टव्यः।",
+            "english": "Spouse themes are especially examined in Navamsa.",
+            "marathi": "कलत्र विशेषतः नवांशात पाहावे.",
+            "hindi": "दाम्पत्य विशेषकर नवमांश में।"
+          }
+        ],
+        "confidence": 68.0,
+        "category": "marriage",
+        "ai_explanation": "«Navamsa 7th Focus» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~68.0%). નિયમ: MAR_004. પુરાવા: ✓ Navamsa focus examined=True. ગ્રંથ: Jataka Parijata. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "935269c8-3013-4024-944a-cf061986430c",
+          "created_at": "2026-07-30T10:21:28.517232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "spouse_navamsa_active",
+            "title": "Navamsa 7th Focus",
+            "summary": "Navamsa examined for spouse themes (Jataka Parijata tradition).",
+            "confidence": 68.0
+          },
+          "evidence": [
+            "✓ Navamsa focus examined=True"
+          ],
+          "rules": [
+            "MAR_004"
+          ],
+          "planets": [],
+          "houses": [],
+          "rule_details": [
+            {
+              "rule_id": "MAR_004",
+              "name": "Navamsa 7th Focus",
+              "priority": 70,
+              "modern_interpretation": "D9 confirmation layer for relationship conclusions.",
+              "evidence_checks": [
+                "✓ Navamsa focus examined=True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "MAR_004",
+              "book": "Jataka Parijata",
+              "sloka_id": "JP-NAVAMSA-01",
+              "chapter": "Navamsa",
+              "sloka_ref": "N-01",
+              "sanskrit": "नवमांशे कलत्रभावः विशेषेण द्रष्टव्यः।",
+              "translations": {
+                "en": "Spouse themes are especially examined in Navamsa.",
+                "mr": "कलत्र विशेषतः नवांशात पाहावे.",
+                "hi": "दाम्पत्य विशेषकर नवमांश में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Navamsa 7th Focus",
+              "key": "spouse_navamsa_active"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Navamsa focus examined=True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "MAR_004"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": []
+            },
+            {
+              "step": "houses",
+              "items": []
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "MAR_004",
+              "book": "Jataka Parijata",
+              "sloka_id": "JP-NAVAMSA-01",
+              "chapter": "Navamsa",
+              "sloka_ref": "N-01",
+              "sanskrit": "नवमांशे कलत्रभावः विशेषेण द्रष्टव्यः।",
+              "translations": {
+                "en": "Spouse themes are especially examined in Navamsa.",
+                "mr": "कलत्र विशेषतः नवांशात पाहावे.",
+                "hi": "दाम्पत्य विशेषकर नवमांश में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      }
+    ],
+    "career": [
+      {
+        "conclusion_key": "career_strong",
+        "title": "Strong 10th Lord — Career Accomplishment",
+        "summary": "10th lord well placed — career accomplishment theme.",
+        "themes": [
+          "career_growth",
+          "status"
+        ],
+        "evidence": [
+          "✓ 10th lord Mercury in H4 strong=True"
+        ],
+        "used_rules": [
+          "CAR_001"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "CAR_001",
+            "name": "Strong 10th Lord — Career Accomplishment",
+            "priority": 85,
+            "modern_interpretation": "Vocational focus and public role capacity.",
+            "evidence_checks": [
+              "✓ 10th lord Mercury in H4 strong=True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "CAR_001",
+            "text": "BPHS",
+            "sloka_id": "BPHS-CAREER-10-01",
+            "chapter": "Karma Bhava",
+            "sloka": "K-10-01",
+            "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+            "english": "Strong 10th lord supports career accomplishment.",
+            "marathi": "बलवान दशमेश: कर्मात सिद्धी.",
+            "hindi": "बलवान दशमेश: करियर सिद्धि।"
+          }
+        ],
+        "confidence": 76.0,
+        "category": "career",
+        "ai_explanation": "«Strong 10th Lord — Career Accomplishment» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~76.0%). નિયમ: CAR_001. પુરાવા: ✓ 10th lord Mercury in H4 strong=True. ગ્રંથ: BPHS. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "6f239c93-4140-4855-9cf3-46b351dcde5e",
+          "created_at": "2026-07-30T10:21:28.517232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "career_strong",
+            "title": "Strong 10th Lord — Career Accomplishment",
+            "summary": "10th lord well placed — career accomplishment theme.",
+            "confidence": 76.0
+          },
+          "evidence": [
+            "✓ 10th lord Mercury in H4 strong=True"
+          ],
+          "rules": [
+            "CAR_001"
+          ],
+          "planets": [
+            "Mercury"
+          ],
+          "houses": [
+            4
+          ],
+          "rule_details": [
+            {
+              "rule_id": "CAR_001",
+              "name": "Strong 10th Lord — Career Accomplishment",
+              "priority": 85,
+              "modern_interpretation": "Vocational focus and public role capacity.",
+              "evidence_checks": [
+                "✓ 10th lord Mercury in H4 strong=True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "CAR_001",
+              "book": "BPHS",
+              "sloka_id": "BPHS-CAREER-10-01",
+              "chapter": "Karma Bhava",
+              "sloka_ref": "K-10-01",
+              "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+              "translations": {
+                "en": "Strong 10th lord supports career accomplishment.",
+                "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+                "hi": "बलवान दशमेश: करियर सिद्धि।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Strong 10th Lord — Career Accomplishment",
+              "key": "career_strong"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ 10th lord Mercury in H4 strong=True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "CAR_001"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Mercury"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                4
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "CAR_001",
+              "book": "BPHS",
+              "sloka_id": "BPHS-CAREER-10-01",
+              "chapter": "Karma Bhava",
+              "sloka_ref": "K-10-01",
+              "sanskrit": "दशमेशे बले कर्मसिद्धिं दिशति।",
+              "translations": {
+                "en": "Strong 10th lord supports career accomplishment.",
+                "mr": "बलवान दशमेश: कर्मात सिद्धी.",
+                "hi": "बलवान दशमेश: करियर सिद्धि।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      },
+      {
+        "conclusion_key": "career_research",
+        "title": "Mercury-Jupiter — Research / Teaching / Advisory",
+        "summary": "Mercury+Jupiter kendra strength — research/teaching/advisory themes.",
+        "themes": [
+          "advisory",
+          "research",
+          "teaching"
+        ],
+        "evidence": [
+          "✓ Mercury in house 4 (kendra=True)",
+          "✓ Jupiter in house 10 (kendra=True)"
+        ],
+        "used_rules": [
+          "CAR_006"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "CAR_006",
+            "name": "Mercury-Jupiter — Research / Teaching / Advisory",
+            "priority": 71,
+            "modern_interpretation": "Knowledge work, academia, consulting.",
+            "evidence_checks": [
+              "✓ Mercury in house 4 (kendra=True)",
+              "✓ Jupiter in house 10 (kendra=True)"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "CAR_006",
+            "text": "Brihat Jataka",
+            "sloka_id": "BJ-KENDRA-01",
+            "chapter": "Houses",
+            "sloka": "H-01",
+            "sanskrit": "केन्द्रस्थाः ग्रहाः बलवन्तः।",
+            "english": "Planets in kendras are considered strong.",
+            "marathi": "केंद्रातील ग्रह बलवान.",
+            "hindi": "केंद्रस्थ ग्रह बलवान।"
+          }
+        ],
+        "confidence": 68.0,
+        "category": "career",
+        "ai_explanation": "«Mercury-Jupiter — Research / Teaching / Advisory» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~68.0%). નિયમ: CAR_006. પુરાવા: ✓ Mercury in house 4 (kendra=True); ✓ Jupiter in house 10 (kendra=True). ગ્રંથ: Brihat Jataka. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "8007d93a-2441-4830-a37a-ee927808380d",
+          "created_at": "2026-07-30T10:21:28.517232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "career_research",
+            "title": "Mercury-Jupiter — Research / Teaching / Advisory",
+            "summary": "Mercury+Jupiter kendra strength — research/teaching/advisory themes.",
+            "confidence": 68.0
+          },
+          "evidence": [
+            "✓ Mercury in house 4 (kendra=True)",
+            "✓ Jupiter in house 10 (kendra=True)"
+          ],
+          "rules": [
+            "CAR_006"
+          ],
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "houses": [
+            4,
+            10
+          ],
+          "rule_details": [
+            {
+              "rule_id": "CAR_006",
+              "name": "Mercury-Jupiter — Research / Teaching / Advisory",
+              "priority": 71,
+              "modern_interpretation": "Knowledge work, academia, consulting.",
+              "evidence_checks": [
+                "✓ Mercury in house 4 (kendra=True)",
+                "✓ Jupiter in house 10 (kendra=True)"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "CAR_006",
+              "book": "Brihat Jataka",
+              "sloka_id": "BJ-KENDRA-01",
+              "chapter": "Houses",
+              "sloka_ref": "H-01",
+              "sanskrit": "केन्द्रस्थाः ग्रहाः बलवन्तः।",
+              "translations": {
+                "en": "Planets in kendras are considered strong.",
+                "mr": "केंद्रातील ग्रह बलवान.",
+                "hi": "केंद्रस्थ ग्रह बलवान।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Mercury-Jupiter — Research / Teaching / Advisory",
+              "key": "career_research"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Mercury in house 4 (kendra=True)",
+                "✓ Jupiter in house 10 (kendra=True)"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "CAR_006"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Mercury",
+                "Jupiter"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                4,
+                10
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "CAR_006",
+              "book": "Brihat Jataka",
+              "sloka_id": "BJ-KENDRA-01",
+              "chapter": "Houses",
+              "sloka_ref": "H-01",
+              "sanskrit": "केन्द्रस्थाः ग्रहाः बलवन्तः।",
+              "translations": {
+                "en": "Planets in kendras are considered strong.",
+                "mr": "केंद्रातील ग्रह बलवान.",
+                "hi": "केंद्रस्थ ग्रह बलवान।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      },
+      {
+        "conclusion_key": "career_markets",
+        "title": "Venus-Mercury — Markets / Design / Media Finance",
+        "summary": "Venus-Mercury wealth/skill links — finance, markets, design/media.",
+        "themes": [
+          "design",
+          "finance",
+          "media",
+          "stock_market"
+        ],
+        "evidence": [
+          "✓ Venus in H10 (need [2, 10, 11]) → True"
+        ],
+        "used_rules": [
+          "CAR_007"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "CAR_007",
+            "name": "Venus-Mercury — Markets / Design / Media Finance",
+            "priority": 70,
+            "modern_interpretation": "Trading, branding, creative commerce.",
+            "evidence_checks": [
+              "✗ Venus/Mercury same sign=False",
+              "✓ Venus in H10 (need [2, 10, 11]) → True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "CAR_007",
+            "text": "Saravali",
+            "sloka_id": "SAR-BUDHADITYA-01",
+            "chapter": "Yogas",
+            "sloka": "Y-01",
+            "sanskrit": "रविबुधयुतिः बुद्धियोगः।",
+            "english": "Sun-Mercury association: intelligence/articulation.",
+            "marathi": "सूर्य-बुध: बुद्धी/अभिव्यक्ती.",
+            "hindi": "सूर्य-बुध: बुद्धि/अभिव्यक्ति।"
+          }
+        ],
+        "confidence": 67.0,
+        "category": "career",
+        "ai_explanation": "«Venus-Mercury — Markets / Design / Media Finance» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~67.0%). નિયમ: CAR_007. પુરાવા: ✓ Venus in H10 (need [2, 10, 11]) → True. ગ્રંથ: Saravali. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "ff300927-2dc8-43b5-8826-a26a6cde5164",
+          "created_at": "2026-07-30T10:21:28.518232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "career_markets",
+            "title": "Venus-Mercury — Markets / Design / Media Finance",
+            "summary": "Venus-Mercury wealth/skill links — finance, markets, design/media.",
+            "confidence": 67.0
+          },
+          "evidence": [
+            "✓ Venus in H10 (need [2, 10, 11]) → True"
+          ],
+          "rules": [
+            "CAR_007"
+          ],
+          "planets": [
+            "Venus",
+            "Mercury"
+          ],
+          "houses": [
+            10
+          ],
+          "rule_details": [
+            {
+              "rule_id": "CAR_007",
+              "name": "Venus-Mercury — Markets / Design / Media Finance",
+              "priority": 70,
+              "modern_interpretation": "Trading, branding, creative commerce.",
+              "evidence_checks": [
+                "✗ Venus/Mercury same sign=False",
+                "✓ Venus in H10 (need [2, 10, 11]) → True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "CAR_007",
+              "book": "Saravali",
+              "sloka_id": "SAR-BUDHADITYA-01",
+              "chapter": "Yogas",
+              "sloka_ref": "Y-01",
+              "sanskrit": "रविबुधयुतिः बुद्धियोगः।",
+              "translations": {
+                "en": "Sun-Mercury association: intelligence/articulation.",
+                "mr": "सूर्य-बुध: बुद्धी/अभिव्यक्ती.",
+                "hi": "सूर्य-बुध: बुद्धि/अभिव्यक्ति।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Venus-Mercury — Markets / Design / Media Finance",
+              "key": "career_markets"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Venus in H10 (need [2, 10, 11]) → True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "CAR_007"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Venus",
+                "Mercury"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                10
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "CAR_007",
+              "book": "Saravali",
+              "sloka_id": "SAR-BUDHADITYA-01",
+              "chapter": "Yogas",
+              "sloka_ref": "Y-01",
+              "sanskrit": "रविबुधयुतिः बुद्धियोगः।",
+              "translations": {
+                "en": "Sun-Mercury association: intelligence/articulation.",
+                "mr": "सूर्य-बुध: बुद्धी/अभिव्यक्ती.",
+                "hi": "सूर्य-बुध: बुद्धि/अभिव्यक्ति।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      }
+    ],
+    "wealth": [],
+    "health": [],
+    "transit": [
+      {
+        "conclusion_key": "transit_saturn_kendra",
+        "title": "Saturn Transit on Natal Kendra",
+        "summary": "Saturn transit on natal kendra — discipline/restructuring theme.",
+        "themes": [
+          "discipline",
+          "pressure",
+          "restructuring"
+        ],
+        "evidence": [
+          "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+        ],
+        "used_rules": [
+          "TR_002"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "TR_002",
+            "name": "Saturn Transit on Natal Kendra",
+            "priority": 80,
+            "modern_interpretation": "Long-cycle responsibility; patience required.",
+            "evidence_checks": [
+              "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "TR_002",
+            "text": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "english": "Results ripen primarily in relevant dashas.",
+            "marathi": "फलपाक संबंधित दशांमध्ये.",
+            "hindi": "फल मुख्यतः दशा में।"
+          }
+        ],
+        "confidence": 74.0,
+        "category": "transit",
+        "ai_explanation": "«Saturn Transit on Natal Kendra» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~74.0%). નિયમ: TR_002. પુરાવા: ✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "ad74d7db-e3d6-49e7-a9f9-405bfb5063b8",
+          "created_at": "2026-07-30T10:21:28.518232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "transit_saturn_kendra",
+            "title": "Saturn Transit on Natal Kendra",
+            "summary": "Saturn transit on natal kendra — discipline/restructuring theme.",
+            "confidence": 74.0
+          },
+          "evidence": [
+            "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+          ],
+          "rules": [
+            "TR_002"
+          ],
+          "planets": [
+            "Saturn"
+          ],
+          "houses": [
+            7
+          ],
+          "rule_details": [
+            {
+              "rule_id": "TR_002",
+              "name": "Saturn Transit on Natal Kendra",
+              "priority": 80,
+              "modern_interpretation": "Long-cycle responsibility; patience required.",
+              "evidence_checks": [
+                "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "TR_002",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Saturn Transit on Natal Kendra",
+              "key": "transit_saturn_kendra"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Transit Saturn on natal H7 (need [1, 4, 7, 10]) → True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "TR_002"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Saturn"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                7
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "TR_002",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      },
+      {
+        "conclusion_key": "transit_jupiter_wealth_dharma",
+        "title": "Jupiter Transit on 2/5/9/11",
+        "summary": "Jupiter on wealth/dharma houses — growth themes.",
+        "themes": [
+          "fortune",
+          "growth",
+          "learning"
+        ],
+        "evidence": [
+          "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+        ],
+        "used_rules": [
+          "TR_005"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "TR_005",
+            "name": "Jupiter Transit on 2/5/9/11",
+            "priority": 78,
+            "modern_interpretation": "Expansion when natal dasha supports.",
+            "evidence_checks": [
+              "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "TR_005",
+            "text": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "english": "Results ripen primarily in relevant dashas.",
+            "marathi": "फलपाक संबंधित दशांमध्ये.",
+            "hindi": "फल मुख्यतः दशा में।"
+          }
+        ],
+        "confidence": 72.0,
+        "category": "transit",
+        "ai_explanation": "«Jupiter Transit on 2/5/9/11» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~72.0%). નિયમ: TR_005. પુરાવા: ✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "f3deaa98-0d5d-4f04-8bf8-2f3e678d2e71",
+          "created_at": "2026-07-30T10:21:28.518232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "transit_jupiter_wealth_dharma",
+            "title": "Jupiter Transit on 2/5/9/11",
+            "summary": "Jupiter on wealth/dharma houses — growth themes.",
+            "confidence": 72.0
+          },
+          "evidence": [
+            "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+          ],
+          "rules": [
+            "TR_005"
+          ],
+          "planets": [
+            "Jupiter"
+          ],
+          "houses": [
+            11
+          ],
+          "rule_details": [
+            {
+              "rule_id": "TR_005",
+              "name": "Jupiter Transit on 2/5/9/11",
+              "priority": 78,
+              "modern_interpretation": "Expansion when natal dasha supports.",
+              "evidence_checks": [
+                "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "TR_005",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Jupiter Transit on 2/5/9/11",
+              "key": "transit_jupiter_wealth_dharma"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Transit Jupiter on natal H11 (need [2, 5, 9, 11]) → True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "TR_005"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Jupiter"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                11
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "TR_005",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      },
+      {
+        "conclusion_key": "transit_ketu_focus",
+        "title": "Ketu Transit on 1/8/12",
+        "summary": "Ketu transit on 1/8/12 — detachment/release themes.",
+        "themes": [
+          "detachment",
+          "release",
+          "spiritual"
+        ],
+        "evidence": [
+          "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+        ],
+        "used_rules": [
+          "TR_004"
+        ],
+        "rule_details": [
+          {
+            "rule_id": "TR_004",
+            "name": "Ketu Transit on 1/8/12",
+            "priority": 70,
+            "modern_interpretation": "Let-go cycles; refine priorities.",
+            "evidence_checks": [
+              "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "rule_id": "TR_004",
+            "text": "Phaladeepika",
+            "sloka_id": "PD-DASHA-01",
+            "chapter": "Dasa Phala",
+            "sloka": "D-01",
+            "sanskrit": "दशाकाले फलपाकः।",
+            "english": "Results ripen primarily in relevant dashas.",
+            "marathi": "फलपाक संबंधित दशांमध्ये.",
+            "hindi": "फल मुख्यतः दशा में।"
+          }
+        ],
+        "confidence": 64.0,
+        "category": "transit",
+        "ai_explanation": "«Ketu Transit on 1/8/12» AstroOS પુરાવા પર આધારિત (વિશ્વાસ ~64.0%). નિયમ: TR_004. પુરાવા: ✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True. ગ્રંથ: Phaladeepika. આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+        "ai_meta": {
+          "provider": "astroos_evidence_explainer",
+          "invented": false,
+          "inputs_used": [
+            "evidence",
+            "matched_rules",
+            "classical_sources",
+            "confidence"
+          ]
+        },
+        "audit": {
+          "audit_id": "7e58f662-122b-4c2a-85b1-2c92103545c0",
+          "created_at": "2026-07-30T10:21:28.518232+00:00",
+          "chart_meta": {
+            "name": "t",
+            "place": null,
+            "jd_ut": 2448118.7083333335,
+            "utc": "1990-08-15T05:00:00+00:00",
+            "timezone": "Asia/Kolkata",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "ayanamsha": "lahiri",
+            "house_system": "W",
+            "ephemeris_engine": "approximate_dev"
+          },
+          "prediction": {
+            "conclusion_key": "transit_ketu_focus",
+            "title": "Ketu Transit on 1/8/12",
+            "summary": "Ketu transit on 1/8/12 — detachment/release themes.",
+            "confidence": 64.0
+          },
+          "evidence": [
+            "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+          ],
+          "rules": [
+            "TR_004"
+          ],
+          "planets": [
+            "Ketu"
+          ],
+          "houses": [
+            12
+          ],
+          "rule_details": [
+            {
+              "rule_id": "TR_004",
+              "name": "Ketu Transit on 1/8/12",
+              "priority": 70,
+              "modern_interpretation": "Let-go cycles; refine priorities.",
+              "evidence_checks": [
+                "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+              ]
+            }
+          ],
+          "classical_chain": [
+            {
+              "step": "book_sloka",
+              "rule_id": "TR_004",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "full_chain": [
+            {
+              "step": "prediction",
+              "value": "Ketu Transit on 1/8/12",
+              "key": "transit_ketu_focus"
+            },
+            {
+              "step": "evidence",
+              "items": [
+                "✓ Transit Ketu on natal H12 (need [1, 8, 12]) → True"
+              ]
+            },
+            {
+              "step": "rules",
+              "items": [
+                "TR_004"
+              ]
+            },
+            {
+              "step": "planets",
+              "items": [
+                "Ketu"
+              ]
+            },
+            {
+              "step": "houses",
+              "items": [
+                12
+              ]
+            },
+            {
+              "step": "book_sloka",
+              "rule_id": "TR_004",
+              "book": "Phaladeepika",
+              "sloka_id": "PD-DASHA-01",
+              "chapter": "Dasa Phala",
+              "sloka_ref": "D-01",
+              "sanskrit": "दशाकाले फलपाकः।",
+              "translations": {
+                "en": "Results ripen primarily in relevant dashas.",
+                "mr": "फलपाक संबंधित दशांमध्ये.",
+                "hi": "फल मुख्यतः दशा में।",
+                "gu": null,
+                "kn": null,
+                "ta": null,
+                "te": null
+              }
+            }
+          ],
+          "verifiability": {
+            "transparent": true,
+            "ai_invented": false,
+            "chain": "prediction→evidence→rule→planet→house→book→sloka",
+            "note": "Every step is rule/evidence backed; AI may only rephrase this chain."
+          }
+        }
+      }
+    ],
+    "remedy": []
+  },
+  "disclaimer": "આ વિશ્લેષણ પારંપરિક વૈદિક જ્યોતિષ સિદ્ધાંતો પર આધારિત છે. ફક્ત શૈક્ષણિક/સાંસ્કૃતિક હેતુ માટે; વૈજ્ઞાનિક ભવિષ્યવાણી કે તબીબી/નાણાકીય/કાનૂની સલાહ નથી.",
+  "philosophy": {
+    "usp": "Evidence → Rule → Classical Source → AI Explanation → Confidence",
+    "ai_never_invents": true
+  }
+}

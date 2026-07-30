@@ -1,0 +1,67 @@
+- rule_id: CAR_001
+  name: Strong 10th Lord — Career Accomplishment
+  category: career
+  priority: 85
+  weight: 0.85
+  confidence_base: 0.76
+  conditions:
+    type: all
+    items:
+      - house_lord_strong: 10
+  result:
+    themes: [career_growth, status]
+    conclusion_key: career_strong
+    fields: [government, business, professional]
+    summary: 10th lord well placed — career accomplishment theme.
+  source:
+    text: BPHS
+    sloka_id: BPHS-CAREER-10-01
+  modern_interpretation: Vocational focus and public role capacity.
+  conflicts: []
+  dependencies: []
+
+- rule_id: CAR_002
+  name: Mercury Strong — IT / Analytics / Communication
+  category: career
+  priority: 72
+  weight: 0.72
+  confidence_base: 0.7
+  conditions:
+    type: any
+    items:
+      - planet_dignity: { planet: Mercury, status: exalted }
+      - planet_dignity: { planet: Mercury, status: own_sign }
+      - planet_in_houses: { planet: Mercury, houses: [1, 2, 3, 10, 11] }
+  result:
+    themes: [it, communication, trade]
+    conclusion_key: career_mercury
+    fields: [IT, research, finance, writing]
+    summary: Mercury strength/placement supports IT/communication/trade themes.
+  source:
+    text: Saravali
+    sloka_id: SAR-BUDHADITYA-01
+  modern_interpretation: Skills in analysis, software, commerce, media.
+  conflicts: []
+  dependencies: []
+
+- rule_id: CAR_003
+  name: Sun in Kendra — Leadership / Government Theme
+  category: career
+  priority: 70
+  weight: 0.7
+  confidence_base: 0.68
+  conditions:
+    type: all
+    items:
+      - planet_in_kendra: Sun
+  result:
+    themes: [leadership, government]
+    conclusion_key: career_authority
+    fields: [government, administration, leadership]
+    summary: Sun in kendra — authority/visibility themes.
+  source:
+    text: Brihat Jataka
+    sloka_id: BJ-KENDRA-01
+  modern_interpretation: Roles with responsibility and recognition.
+  conflicts: []
+  dependencies: []
