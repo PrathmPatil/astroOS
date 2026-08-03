@@ -44,13 +44,12 @@ npm run dev -- -p 3001
 
 ## Deploy (free forever)
 
-**Recommended:** Vercel (web) + Render (API) — see [docs/DEPLOY-FREE.md](docs/DEPLOY-FREE.md).
+**Recommended:** Vercel (web) + Vercel (API) — see [docs/DEPLOY-FREE.md](docs/DEPLOY-FREE.md) and [docs/AUTH-SEO.md](docs/AUTH-SEO.md).
 
-1. Push this repo to GitHub  
-2. Render → Web Service / Blueprint → `Dockerfile.api` (Free)  
-3. Vercel → import → Root Directory `frontend` → set `NEXT_PUBLIC_API_URL`  
+- **App:** https://astroos-one.vercel.app  
+- **API:** https://astroos-api.vercel.app  
 
-Fly.io configs remain in-repo but are optional (`docs/FLY.md`).
+Google Sign-In + SEO (sitemap, robots, About / Gun Milan pages) are in the frontend. Configure OAuth env vars per `docs/AUTH-SEO.md`.
 
 ## Layers
 

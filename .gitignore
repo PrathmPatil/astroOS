@@ -56,3 +56,5 @@ redis_data/
 Desktop.ini
 .vercel
 .env*
+!.env.example
+!frontend/.env.example
