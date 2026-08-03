@@ -117,12 +117,15 @@ def remedies_os(payload: DomainRequest):
 
 @router.post("/evidence")
 def evidence_os(payload: DomainRequest):
-    return run_full_analysis(payload.birth, language=payload.language)
+    # Avoid report file I/O on serverless; conclusions still returned
+    return run_full_analysis(
+        payload.birth, language=payload.language, write_reports=False
+    )
 
 
 @router.post("/report")
 def report_os(payload: DomainRequest):
-    return run_full_analysis(payload.birth, language=payload.language)
+    return run_full_analysis(payload.birth, language=payload.language, write_reports=True)
 
 
 @router.post("/audit")

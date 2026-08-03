@@ -17,6 +17,7 @@ os.environ.setdefault("SE_EPHE_PATH", str(BACKEND / "ephe"))
 os.environ.setdefault("APP_ENV", "production")
 os.environ.setdefault("DEBUG", "false")
 os.environ.setdefault("AI_PROVIDER", "none")
+os.environ.setdefault("VERCEL", "1")
 os.environ.setdefault(
     "CORS_ORIGINS",
     "https://astroos-one.vercel.app,"

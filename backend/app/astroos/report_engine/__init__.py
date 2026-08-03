@@ -148,9 +148,25 @@ def generate_report_bundle(
     stem: str = "astroos_report",
     language: str = "en",
 ) -> dict[str, str]:
+    import os
+    import tempfile
+
     language = language if language in SUPPORTED_LANGS else "en"
-    storage = Path(__file__).resolve().parents[2] / "storage" / "reports"
-    storage.mkdir(parents=True, exist_ok=True)
+    preferred = Path(__file__).resolve().parents[2] / "storage" / "reports"
+    # Vercel / serverless filesystems are read-only except /tmp
+    if os.environ.get("VERCEL") or os.environ.get("AWS_LAMBDA_FUNCTION_NAME"):
+        storage = Path(tempfile.gettempdir()) / "astroos-reports"
+    else:
+        storage = preferred
+    try:
+        storage.mkdir(parents=True, exist_ok=True)
+        probe = storage / ".write_probe"
+        probe.write_text("ok", encoding="utf-8")
+        probe.unlink(missing_ok=True)
+    except OSError:
+        storage = Path(tempfile.gettempdir()) / "astroos-reports"
+        storage.mkdir(parents=True, exist_ok=True)
+
     md_path = storage / f"{stem}.md"
     html_path = storage / f"{stem}.html"
     json_path = storage / f"{stem}.json"

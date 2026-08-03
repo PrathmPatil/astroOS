@@ -73,7 +73,12 @@ def run_domain(
     }
 
 
-def run_full_analysis(birth: BirthDetails, language: str = "mr") -> dict[str, Any]:
+def run_full_analysis(
+    birth: BirthDetails,
+    language: str = "mr",
+    *,
+    write_reports: bool = True,
+) -> dict[str, Any]:
     chart = compute_chart(birth)
     vargas = compute_vargas(birth)
     extras = _dasha_extras(birth, chart)
@@ -119,12 +124,20 @@ def run_full_analysis(birth: BirthDetails, language: str = "mr") -> dict[str, An
             "ai_never_invents": True,
         },
     }
-    paths = generate_report_bundle(
-        report,
-        stem=f"astroos_{(birth.name or 'native').replace(' ', '_').lower()}",
-        language=language if language in {"en", "mr", "hi", "gu", "kn", "ta", "te"} else "en",
-    )
-    report["files"] = paths
+    if write_reports:
+        try:
+            paths = generate_report_bundle(
+                report,
+                stem=f"astroos_{(birth.name or 'native').replace(' ', '_').lower()}",
+                language=language
+                if language in {"en", "mr", "hi", "gu", "kn", "ta", "te"}
+                else "en",
+            )
+            report["files"] = paths
+        except OSError:
+            report["files"] = {"skipped": "storage not writable in this environment"}
+    else:
+        report["files"] = {"skipped": True}
     return report
 
 
@@ -139,7 +152,8 @@ def explain_prediction(
         conclusions = result["evidence_pack"]["conclusions"]
         meta = result.get("meta")
     else:
-        result = run_full_analysis(birth, language=language)
+        # Skip report file writes — needed on Vercel/serverless read-only FS
+        result = run_full_analysis(birth, language=language, write_reports=False)
         conclusions = result["conclusions"]
         meta = result.get("meta")
 
